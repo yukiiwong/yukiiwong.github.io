@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>in on Yukai Wang</title>
+    <link>https://yukiiwong.github.io/tags/in/</link>
+    <description>Recent content in in on Yukai Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Oct 2022 11:13:45 +0800</lastBuildDate><atom:link href="https://yukiiwong.github.io/tags/in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pro1</title>
+      <link>https://yukiiwong.github.io/projects/pro1/</link>
+      <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
+      
+      <guid>https://yukiiwong.github.io/projects/pro1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pub1</title>
+      <link>https://yukiiwong.github.io/publications/pub1/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/publications/pub1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
