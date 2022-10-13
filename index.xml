@@ -8,69 +8,83 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate><atom:link href="https://yukiiwong.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Organically DevOps: Building Quality and Security into the Software Supply Chain at Liberty Mutual</title>
-      <link>https://yukiiwong.github.io/more/pro1/</link>
-      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
+      <title>Multi-Agent Simulation Based on Reinforcement Learning</title>
+      <link>https://yukiiwong.github.io/projects/pro2/</link>
+      <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
       
-      <guid>https://yukiiwong.github.io/more/pro1/</guid>
-      <description>This talk looked at Liberty Mutual’s transformation to Continuous Integration, Continuous Delivery, and DevOps. For a large, heavily regulated industry, this task can not only be daunting, but viewed by many as impossible. Often, organizations try to reduce the friction through micro-fixes, but Eddie’s team asked how to change the culture to reduce the friction and concluded with the following final points:
- Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow.</description>
+      <guid>https://yukiiwong.github.io/projects/pro2/</guid>
+      <description>This project was funded by HUAWEI.
+The characteristics of the traffic system are dynamic and complicated. Traditional traffic simulation software can imitate the behavior of traffic participants, but it is a far cry from reality. By interacting with the environment, agents can acquire knowledge or enhance their performance via reinforcement learning techniques. According to the agent&amp;rsquo;s predetermined objectives, in a specific environment and under a specific policy, specific actions are performed and incentives are acquired.</description>
     </item>
     
     <item>
-      <title>Organically DevOps: Building Quality and Security into the Software Supply Chain at Liberty Mutual</title>
-      <link>https://yukiiwong.github.io/publications/alldaydevops/</link>
-      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://yukiiwong.github.io/publications/alldaydevops/</guid>
-      <description>This talk looked at Liberty Mutual’s transformation to Continuous Integration, Continuous Delivery, and DevOps. For a large, heavily regulated industry, this task can not only be daunting, but viewed by many as impossible. Often, organizations try to reduce the friction through micro-fixes, but Eddie’s team asked how to change the culture to reduce the friction and concluded with the following final points:
- Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow.</description>
-    </item>
-    
-    <item>
-      <title>Forcing Visits to use SSL</title>
-      <link>https://yukiiwong.github.io/more/force-ssl/</link>
-      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-      
-      <guid>https://yukiiwong.github.io/more/force-ssl/</guid>
-      <description>Intro Doesn&amp;rsquo;t matter whether it&amp;rsquo;s a CakePHP app for a client, your own personal CMS, or any other web based application. If your passing around passwords or other sensitive info you should really implement SSL. SSL provides 2 main perks to your visitors.
- First it encrypts all communication that flies across the web. This prevents curious or devious billies from getting your secrets. Secondly it ensures to the user that your server is in fact who it claims, and not a nasty &amp;lsquo;man in the middle&amp;quot; attack.</description>
-    </item>
-    
-    <item>
-      <title>Pro1</title>
+      <title>Intelligent Transportation Network Driven by Digital Twin</title>
       <link>https://yukiiwong.github.io/projects/pro1/</link>
       <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
       
       <guid>https://yukiiwong.github.io/projects/pro1/</guid>
-      <description></description>
+      <description>This project was funded by Wuhan Traffic Management Bureau.
+This research attempts to use the burgeoning big data technologies to investigate the urban transportation system based on digital twins. It solves the disadvantages of conventional approaches, such as limited data support and poor analytical precision, and speeds the integration of essential technologies, such as artificial intelligence, with transportation-specific knowledge.
+The purpose of this project is mainly the following three points. Initially, the value of traffic data may be increased by fusing and mining vast amount of data.</description>
     </item>
     
     <item>
-      <title>Pub1</title>
-      <link>https://yukiiwong.github.io/publications/pub1/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <title>Nanjing Qingliang Mountain Underground Space Simulation</title>
+      <link>https://yukiiwong.github.io/projects/pro5/</link>
+      <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
       
-      <guid>https://yukiiwong.github.io/publications/pub1/</guid>
-      <description></description>
+      <guid>https://yukiiwong.github.io/projects/pro5/</guid>
+      <description>This project was funded by School of Transportation in Southeast University.
+Multiple causes, including the People&amp;rsquo;s Hospital, contribute to severe traffic congestion in the Qingliang Mountain area of Gulou District in Nanjing. Consider using the underground area to construct a subway station and conduct a simulation-based traffic impact study. What type of crowd-gathering impact would the subway station be designed to create? What effect would a set of schemes, such as addresses, have on the road network after they are specified?</description>
     </item>
     
     <item>
-      <title>BOSH release for Bamboo &amp; Remote Agents</title>
-      <link>https://yukiiwong.github.io/more/bosh-agents/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      <title>Traffic Visualization Integrated Application System</title>
+      <link>https://yukiiwong.github.io/projects/pro4/</link>
+      <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
       
-      <guid>https://yukiiwong.github.io/more/bosh-agents/</guid>
-      <description>BOSH (Bosh Outer SHell) &amp;ldquo;&amp;hellip;is an open source tool for release engineering, deployment, lifecycle management, and monitoring of distributed systems.&amp;rdquo; And it&amp;rsquo;s amazingly powerful. This examples uses BOSH to provision an Alassian vendor app running on JDK along with the support Postgres database and agents to support it. The releases manages the health of services and will automatically provision, start/stop processes across the various services.</description>
+      <guid>https://yukiiwong.github.io/projects/pro4/</guid>
+      <description>This project was funded by Yangzhou Road Management Department.
+The intelligent traffic visualization application with large-scale data statistics and integration is the centralized statistics and display of data for each highway management platform subsystem. It may also increase the quality of expressway service, the quality of highway service, the stability of expressway traffic operation, and the dependability of the road network under adverse weather conditions. Future requirements for the rapid expansion of roadways can be met by an integrated application of intelligent traffic visualization with rich data content and intuitive display.</description>
     </item>
     
     <item>
-      <title>BOSH release for Bamboo &amp; Remote Agents</title>
-      <link>https://yukiiwong.github.io/projects/bosh-agents/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      <title>A Memorable Basketball Game</title>
+      <link>https://yukiiwong.github.io/more/basketball/</link>
+      <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
       
-      <guid>https://yukiiwong.github.io/projects/bosh-agents/</guid>
-      <description>BOSH (Bosh Outer SHell) &amp;ldquo;&amp;hellip;is an open source tool for release engineering, deployment, lifecycle management, and monitoring of distributed systems.&amp;rdquo; And it&amp;rsquo;s amazingly powerful. This examples uses BOSH to provision an Alassian vendor app running on JDK along with the support Postgres database and agents to support it. The releases manages the health of services and will automatically provision, start/stop processes across the various services.</description>
+      <guid>https://yukiiwong.github.io/more/basketball/</guid>
+      <description>Our team went into overtime in the college basketball game and won!</description>
+    </item>
+    
+    <item>
+      <title>Suzhou Ancient City Digital Twin Platform</title>
+      <link>https://yukiiwong.github.io/projects/pro3/</link>
+      <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
+      
+      <guid>https://yukiiwong.github.io/projects/pro3/</guid>
+      <description>This project was funded by BOYUXIN.
+Digital twin is a significant direction and application scenario for the development of informatization in the transportation, as well as a key visualization technique for smart city. The digital twin&amp;rsquo;s technical advantages include digital identification, simultaneous visualization, virtual-real interaction, and intelligent control, and it will bring new solutions and avenues for intelligent parking management and intelligent driving.
+In this project, my job includes
+ Building up the parking lots on the SUMO simulation platform.</description>
+    </item>
+    
+    <item>
+      <title>The Only Victory</title>
+      <link>https://yukiiwong.github.io/more/footbal/</link>
+      <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
+      
+      <guid>https://yukiiwong.github.io/more/footbal/</guid>
+      <description>We eventually won one after four rounds of football. Everyone burst out laughing.</description>
+    </item>
+    
+    <item>
+      <title>Cycling around Qinghai Lake</title>
+      <link>https://yukiiwong.github.io/more/cycling/</link>
+      <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
+      
+      <guid>https://yukiiwong.github.io/more/cycling/</guid>
+      <description>I cycled around the beautiful Qinghai Lake for four days and uploaded the video to bilibili.</description>
     </item>
     
     <item>

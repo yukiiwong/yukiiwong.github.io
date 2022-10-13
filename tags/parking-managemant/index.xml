@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>parking managemant on Yukai Wang</title>
+    <link>https://yukiiwong.github.io/tags/parking-managemant/</link>
+    <description>Recent content in parking managemant on Yukai Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Oct 2022 11:13:45 +0800</lastBuildDate><atom:link href="https://yukiiwong.github.io/tags/parking-managemant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Suzhou Ancient City Digital Twin Platform</title>
+      <link>https://yukiiwong.github.io/projects/pro3/</link>
+      <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
+      
+      <guid>https://yukiiwong.github.io/projects/pro3/</guid>
+      <description>This project was funded by BOYUXIN.
+Digital twin is a significant direction and application scenario for the development of informatization in the transportation, as well as a key visualization technique for smart city. The digital twin&amp;rsquo;s technical advantages include digital identification, simultaneous visualization, virtual-real interaction, and intelligent control, and it will bring new solutions and avenues for intelligent parking management and intelligent driving.
+In this project, my job includes
+ Building up the parking lots on the SUMO simulation platform.</description>
+    </item>
+    
+  </channel>
+</rss>

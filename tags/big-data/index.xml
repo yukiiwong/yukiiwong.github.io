@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>big data on Yukai Wang</title>
+    <link>https://yukiiwong.github.io/tags/big-data/</link>
+    <description>Recent content in big data on Yukai Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Oct 2022 11:13:45 +0800</lastBuildDate><atom:link href="https://yukiiwong.github.io/tags/big-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intelligent Transportation Network Driven by Digital Twin</title>
+      <link>https://yukiiwong.github.io/projects/pro1/</link>
+      <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
+      
+      <guid>https://yukiiwong.github.io/projects/pro1/</guid>
+      <description>This project was funded by Wuhan Traffic Management Bureau.
+This research attempts to use the burgeoning big data technologies to investigate the urban transportation system based on digital twins. It solves the disadvantages of conventional approaches, such as limited data support and poor analytical precision, and speeds the integration of essential technologies, such as artificial intelligence, with transportation-specific knowledge.
+The purpose of this project is mainly the following three points. Initially, the value of traffic data may be increased by fusing and mining vast amount of data.</description>
+    </item>
+    
+  </channel>
+</rss>
