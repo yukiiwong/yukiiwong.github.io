@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Publications on Yukai Wang</title>
     <link>https://yukiiwong.github.io/publications/</link>
     <description>Recent content in Publications on Yukai Wang</description>
+=======
+    <title>Publications on Eddie Webb</title>
+    <link>https://yukiiwong.github.io/publications/</link>
+    <description>Recent content in Publications on Eddie Webb</description>
+>>>>>>> 9983a5d67df7424dd253ffe5acb5e9c598f38bdc
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Jan 2020 16:47:30 +0000</lastBuildDate><atom:link href="https://yukiiwong.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
@@ -17,6 +23,7 @@
  Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow.</description>
     </item>
     
+<<<<<<< HEAD
     <item>
       <title>Pub1</title>
       <link>https://yukiiwong.github.io/publications/pub1/</link>
@@ -26,5 +33,7 @@
       <description></description>
     </item>
     
+=======
+>>>>>>> 9983a5d67df7424dd253ffe5acb5e9c598f38bdc
   </channel>
 </rss>

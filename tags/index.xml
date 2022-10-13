@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Tags on Yukai Wang</title>
     <link>https://yukiiwong.github.io/tags/</link>
     <description>Recent content in Tags on Yukai Wang</description>
@@ -13,33 +14,80 @@
       <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
       
       <guid>https://yukiiwong.github.io/tags/in/</guid>
+=======
+    <title>Tags on Eddie Webb</title>
+    <link>https://yukiiwong.github.io/tags/</link>
+    <description>Recent content in Tags on Eddie Webb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2020 17:09:26 +0000</lastBuildDate><atom:link href="https://yukiiwong.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://yukiiwong.github.io/tags/docker/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/docker/</guid>
+>>>>>>> 9983a5d67df7424dd253ffe5acb5e9c598f38bdc
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>techtags</title>
       <link>https://yukiiwong.github.io/tags/techtags/</link>
       <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
       
       <guid>https://yukiiwong.github.io/tags/techtags/</guid>
+=======
+      <title>JavaScript</title>
+      <link>https://yukiiwong.github.io/tags/javascript/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/javascript/</guid>
+>>>>>>> 9983a5d67df7424dd253ffe5acb5e9c598f38bdc
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>used</title>
       <link>https://yukiiwong.github.io/tags/used/</link>
       <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
       
       <guid>https://yukiiwong.github.io/tags/used/</guid>
+=======
+      <title>JSON</title>
+      <link>https://yukiiwong.github.io/tags/json/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/json/</guid>
+>>>>>>> 9983a5d67df7424dd253ffe5acb5e9c598f38bdc
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>website</title>
       <link>https://yukiiwong.github.io/tags/website/</link>
       <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
       
       <guid>https://yukiiwong.github.io/tags/website/</guid>
+=======
+      <title>node.js</title>
+      <link>https://yukiiwong.github.io/tags/node.js/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST APIs</title>
+      <link>https://yukiiwong.github.io/tags/rest-apis/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/rest-apis/</guid>
+>>>>>>> 9983a5d67df7424dd253ffe5acb5e9c598f38bdc
       <description></description>
     </item>
     
@@ -98,6 +146,7 @@
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>REST APIs</title>
       <link>https://yukiiwong.github.io/tags/rest-apis/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
@@ -107,6 +156,8 @@
     </item>
     
     <item>
+=======
+>>>>>>> 9983a5d67df7424dd253ffe5acb5e9c598f38bdc
       <title>agile</title>
       <link>https://yukiiwong.github.io/tags/agile/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
@@ -188,6 +239,27 @@
     </item>
     
     <item>
+<<<<<<< HEAD
+=======
+      <title>Atlassian Developer Ecosystem</title>
+      <link>https://yukiiwong.github.io/tags/atlassian-developer-ecosystem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/atlassian-developer-ecosystem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bamboo</title>
+      <link>https://yukiiwong.github.io/tags/bamboo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/bamboo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+>>>>>>> 9983a5d67df7424dd253ffe5acb5e9c598f38bdc
       <title>bash/shell</title>
       <link>https://yukiiwong.github.io/tags/bash/shell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -197,6 +269,18 @@
     </item>
     
     <item>
+<<<<<<< HEAD
+=======
+      <title>Bitbucket</title>
+      <link>https://yukiiwong.github.io/tags/bitbucket/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/bitbucket/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+>>>>>>> 9983a5d67df7424dd253ffe5acb5e9c598f38bdc
       <title>CI/CD pipelines</title>
       <link>https://yukiiwong.github.io/tags/ci/cd-pipelines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -206,6 +290,54 @@
     </item>
     
     <item>
+<<<<<<< HEAD
+=======
+      <title>Confluence</title>
+      <link>https://yukiiwong.github.io/tags/confluence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/confluence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JIRA</title>
+      <link>https://yukiiwong.github.io/tags/jira/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/jira/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jQuery</title>
+      <link>https://yukiiwong.github.io/tags/jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maven</title>
+      <link>https://yukiiwong.github.io/tags/maven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/maven/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spring</title>
+      <link>https://yukiiwong.github.io/tags/spring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukiiwong.github.io/tags/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+>>>>>>> 9983a5d67df7424dd253ffe5acb5e9c598f38bdc
       <title>xml/xslt</title>
       <link>https://yukiiwong.github.io/tags/xml/xslt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
