@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anylogic on Yukai Wang</title>
+    <link>https://yukiiwong.github.io/tags/anylogic/</link>
+    <description>Recent content in Anylogic on Yukai Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Oct 2022 11:13:45 +0800</lastBuildDate><atom:link href="https://yukiiwong.github.io/tags/anylogic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nanjing Qingliang Mountain Underground Space Simulation</title>
+      <link>https://yukiiwong.github.io/projects/pro5/</link>
+      <pubDate>Thu, 13 Oct 2022 11:13:45 +0800</pubDate>
+      
+      <guid>https://yukiiwong.github.io/projects/pro5/</guid>
+      <description>This project was funded by School of Transportation in Southeast University.
+Multiple causes, including the People&amp;rsquo;s Hospital, contribute to severe traffic congestion in the Qingliang Mountain area of Gulou District in Nanjing. Consider using the underground area to construct a subway station and conduct a simulation-based traffic impact study. What type of crowd-gathering impact would the subway station be designed to create? What effect would a set of schemes, such as addresses, have on the road network after they are specified?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -18,10 +18,6 @@
     <lastmod>2022-10-13T11:13:45+08:00</lastmod>
     <priority>2</priority>
   </url><url>
-    <loc>https://yukiiwong.github.io/projects/pro4/</loc>
-    <lastmod>2022-10-13T11:13:45+08:00</lastmod>
-    <priority>1</priority>
-  </url><url>
     <loc>https://yukiiwong.github.io/more/basketball/</loc>
     <lastmod>2022-10-13T11:13:45+08:00</lastmod>
     <priority>1</priority>
@@ -38,10 +34,20 @@
     <lastmod>2022-10-13T11:13:45+08:00</lastmod>
     <priority>1</priority>
   </url><url>
+    <loc>https://yukiiwong.github.io/projects/pro4/</loc>
+    <lastmod>2022-10-13T11:13:45+08:00</lastmod>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://yukiiwong.github.io/tags/anylogic/</loc>
+    <lastmod>2022-10-13T11:13:45+08:00</lastmod>
+  </url><url>
     <loc>https://yukiiwong.github.io/tags/big-data/</loc>
     <lastmod>2022-10-13T11:13:45+08:00</lastmod>
   </url><url>
     <loc>https://yukiiwong.github.io/tags/bridge-maintenance-system/</loc>
+    <lastmod>2022-10-13T11:13:45+08:00</lastmod>
+  </url><url>
+    <loc>https://yukiiwong.github.io/tags/crowd-gathering-impact/</loc>
     <lastmod>2022-10-13T11:13:45+08:00</lastmod>
   </url><url>
     <loc>https://yukiiwong.github.io/tags/digital-twin/</loc>
@@ -66,6 +72,9 @@
     <loc>https://yukiiwong.github.io/tags/parking-managemant/</loc>
     <lastmod>2022-10-13T11:13:45+08:00</lastmod>
   </url><url>
+    <loc>https://yukiiwong.github.io/tags/people-flow/</loc>
+    <lastmod>2022-10-13T11:13:45+08:00</lastmod>
+  </url><url>
     <loc>https://yukiiwong.github.io/projects/</loc>
     <lastmod>2022-10-13T11:13:45+08:00</lastmod>
     <priority>0.9</priority>
@@ -77,6 +86,9 @@
     <lastmod>2022-10-13T11:13:45+08:00</lastmod>
   </url><url>
     <loc>https://yukiiwong.github.io/tags/smart-city/</loc>
+    <lastmod>2022-10-13T11:13:45+08:00</lastmod>
+  </url><url>
+    <loc>https://yukiiwong.github.io/tags/subway-station/</loc>
     <lastmod>2022-10-13T11:13:45+08:00</lastmod>
   </url><url>
     <loc>https://yukiiwong.github.io/tags/sumo/</loc>
