@@ -1,0 +1,37 @@
+[
+	{
+		"name":"Rank top 20 in the AI Competition in 2021",
+		"description": "RLChina 2021 Reinforcement Learning Summer School",
+		"badge":"/img/rlchina.png",
+		"proof":"http://rlchina.org/"
+
+	},
+	{
+		"name":"National First Prize in 2019",
+		"description": "The 14th National Competition of Transport Science and Technology for Students",
+		"badge":"/img/trans.png",
+		"proof":"http://www.nactrans.com.cn/index"
+
+	},
+	{
+		"name":"Honorable Mention in 2019",
+		"description": "Interdisciplinary Contest In Modeling Certificate of Achievement",
+		"badge":"/img/mcm.png",
+		"proof":"https://www.comap.com/contests/mcm-icm"
+		
+	},
+	{
+		"name":"National First Prize in 2018",
+		"description": "China Undergraduate Mathematical Contest in Modeling",
+		"badge":"/img/math.png",
+		"proof":"http://www.mcm.edu.cn/"
+		
+	},
+	{
+		"name":"National First Prize in 2017",
+		"description": "CSEE Cup 2017 National University Students Electrical Math Modeling Competition",
+		"badge":"/img/diangong.png",
+		"proof":"http://shumo.neepu.edu.cn/"
+		
+	}
+]

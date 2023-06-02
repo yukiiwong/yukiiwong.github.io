@@ -1,0 +1,38 @@
+title = "Yukai Wang"
+baseURL = "https://yukiiwong.github.io/"
+theme = "port"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Nanjing, China"
+email = "wangyukai@seu.edu.cn"
+favicon = "/favicon.png"
+firstName = "Yukai"
+lastName = "Wang"
+phone = "18011522819"
+profileImage = "img/portfolio.jpg"
+showEducation = true
+showExperience = false
+showOpenSource = false
+showProjects = true
+showPublications = true
+showQr = true
+showSkills = true
+showMore = true
+
+
+[[params.handles]]
+link = "https://github.com/yukiiwong/"
+name = "GitHub"
+
+
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"

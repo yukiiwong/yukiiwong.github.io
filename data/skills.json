@@ -1,0 +1,21 @@
+[
+  {
+      "grouping":"System",
+      "skills":[ "Windows","MacOS","linux"]
+  },{
+      "grouping":"Languages",
+      "skills":["Python","Matlab","git","bash","javascript","MySQL"]
+  },
+  {
+      "grouping":"Document Creation",
+      "skills":[ "Microsoft","Latex","Markdown"]
+  },
+  {
+      "grouping":"Software",
+      "skills":["SUMO","Anylogic","SPSS","Eviews"]
+  },
+  {
+    "grouping":"Others",
+      "skills":["Basketball","Guitar","Swimming","Table-tennis"]
+  }
+]

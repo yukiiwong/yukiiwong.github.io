@@ -1,0 +1,47 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+
+127.0.0.1 *.licenses.adobe.com
+127.0.0.1 lmlicenses.wip4.adobe.com
+127.0.0.1 lm.licenses.adobe.com
+127.0.0.1 na1r.services.adobe.com
+127.0.0.1 *.services.adobe.com
+127.0.0.1 hlrcv.stage.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 adobeid-na1.services.adobe.com
+127.0.0.1 ims-na1.adobelogin.com
+127.0.0.1 armmf.adobe.com
+http://github.com 204.232.175.94 http://gist.github.com 107.21.116.220
+http://help.github.com 207.97.227.252 http://nodeload.github.com 199.27.76.130
+http://raw.github.com 107.22.3.110 http://status.github.com 204.232.175.78
+http://training.github.com 207.97.227.243 http://www.github.com
+
+
+# MacWk.com Hosts Start
+
+# BetterTouchTool
+127.0.0.1 folivora.ai
+127.0.0.1 www.folivora.ai
+127.0.0.1 updates.boastr.net
+127.0.0.1 updates.folivora.ai
+127.0.0.1 updates.bettertouchtool.net
+127.0.0.1 bettertouchtool.net
+
+# Proxifier
+127.0.0.1 www.proxifier.com
+127.0.0.1 proxifier.com
+
+# MacWk.com Hosts End
+
+
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
