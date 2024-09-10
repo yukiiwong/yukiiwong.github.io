@@ -1,2 +1,3 @@
-- name: Example Grant Here
-- name: Example Grant Here
+- name: "<div class='education-entry'><strong style='font-size: 20px;'>Doctor of Philosophy(2023-now)</strong><br/><div class='school-name'>Cho Chun Shik Graduate School of Mobility</div><div class='institution'><a href='https://www.kaist.ac.kr/en/'>Korea Advanced Institute of Science and Technology (KAIST)</a></div><div class='dates'></div></div>"
+- name: "<div class='education-entry'><strong style='font-size: 20px;'>Master of Philosophy(2020-2023)</strong><br/><div class='school-name'>School of Transportation</div><div class='institution'><a href='https://www.seu.edu.cn'>Southeast University</a></div><div class='dates'></div></div>"
+- name: "<div class='education-entry'><strong style='font-size: 20px;'>Bachelor(2016-2020)</strong><br/><div class='school-name'>Mao Yisheng Honors College</div><div class='institution'><a href='https://www.swjtu.edu.cn'>Southwest Jiaotong University</a></div><div class='dates'></div></div>"

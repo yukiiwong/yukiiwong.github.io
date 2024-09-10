@@ -4,29 +4,25 @@ layout: homelay
 sitemap: false
 permalink: /
 ---
+### About me
 
+Hello! My name is Yukai Wang (王于凯). I was born in Shandong, China, and I am currently a PhD student at The Cho Chun Shik Graduate School of Mobility, KAIST, under the supervision of [Prof. Tiantian Chen](https://sites.google.com/view/chentiantian/home). 
+In 2020, I completed my undergraduate studies at Southwest Jiaotong University, where I was recognized as the Honorable Student of [Mao Yisheng Honors College](https://mys.swjtu.edu.cn/en/About/Profile_of_Mao_Yisheng.htm). 
+
+I then pursued master at Southeast University between 2020 and 2023, advised by [Prof. Zhiyuan Liu](https://scholar.google.com/citations?hl=zh-CN&user=RVL8KNIAAAAJ).
 ### Welcome!
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-It also helps us to understand the fundamental principles that govern the behavior of matter and energy, and to explore the limits of our current knowledge.
-Theoretical physics helps us to make progress in a wide range of fields, including cosmology, particle physics, and quantum mechanics, and it has led to many important discoveries and technological innovations.
-
+My research spans a broad spectrum of topics, including traffic safety, simulation techniques, and various learning methods such as machine learning (ML), deep learning (DL), and reinforcement learning (RL). Recently, I have been actively involved in research on autonomous driving, world models, reinforcement learning, and safety analysis. I am always open to collaboration opportunities. For more details about my research and our lab, please visit our website: https://human-facts.kaist.ac.kr/. You can also reach me via email at yukai@kaist.ac.kr.
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
-Examples of Feynman diagrams. <br/>
-Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
+<img src="{{ site.url }}{{ site.baseurl }}/images/1.gif" width="24%"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/2.gif" width="24%"/><br/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/park.gif" width="50%"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/qingliang.gif" width="50%"/><br/>
 </center>
 </div>
 </div>
 <br/>
 
-### About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.

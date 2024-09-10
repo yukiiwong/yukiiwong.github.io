@@ -1,7 +1,7 @@
 # Site settings
-title: Richard Feynman
-email: richard@university.edu
-description: Academic webpage of Dr. Richard Feynman
+title: Yukai Wang
+email: yukai@kaist.ac.kr
+description: Webpage of Yukai
 baseurl: ""
 url: ""
 
@@ -12,29 +12,26 @@ url: ""
 
 # Footer info
 affiliation: >
-  Richard Feynman<br/>
-  Professor of Physics<br/>
-  California Institute of Technology
-
+  Yukai Wang,<br/>
+  Cho Chun Shik Graduate School of Mobility,<br/>
+  KAIST (Korea Advanced Institute of Science and Technology)
 location: >
-  California Institute of Technology<br/>
-  1200 E California Blvd<br/>
-  Pasadena, CA 91125
+  KAIST<br/> 
+  291 Daehak-ro Yuseong-gu<br/> 
+  Daejeon 34141<br/> 
+  Republic of Korea
 
 contact: >
-  <a href="mailto:richard@university.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Richard via email</a> <br/>
-  <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+  <a href="yukai@kaist.ac.kr" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Yukai via email</a> <br/>
+  <a href="https://github.com/yukiiwong"><i class="fa fa-github fa-1x"></i> This is my Github!</a>
 
 # Pages shown in navbar
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
-  - name: research
+  - name: project
   - name: software
-  - name: team
-  - name: teaching
-  - name: blogs
+#  - name: blogs
 
 include:
   - .htaccess

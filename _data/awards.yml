@@ -1,3 +1,9 @@
-- name: Example award here (2021)
-- name: Example award here (2020)
+- name: "<div class='award-entry'><strong style='font-size: 18px;'>Rank top 20 in the AI Competition (2021)</strong><br/><div class='award-description'>RLChina 2021 Reinforcement Learning Summer School</div><div class='award-proof'><a href='http://rlchina.org/' target='_blank'>Learn more</a></div></div>"
 
+- name: "<div class='award-entry'><strong style='font-size: 18px;'>National First Prize (2019)</strong><br/><div class='award-description'>The 14th National Competition of Transport Science and Technology for Students</div><div class='award-proof'><a href='http://www.nactrans.com.cn/index' target='_blank'>Learn more</a></div></div>"
+
+- name: "<div class='award-entry'><strong style='font-size: 18px;'>Honorable Mention (2019)</strong><br/><div class='award-description'>Interdisciplinary Contest In Modeling Certificate of Achievement</div><div class='award-proof'><a href='https://www.comap.com/contests/mcm-icm' target='_blank'>Learn more</a></div></div>"
+
+- name: "<div class='award-entry'><strong style='font-size: 18px;'>National First Prize (2018)</strong><br/><div class='award-description'>China Undergraduate Mathematical Contest in Modeling</div><div class='award-proof'><a href='http://www.mcm.edu.cn/' target='_blank'>Learn more</a></div></div>"
+
+- name: "<div class='award-entry'><strong style='font-size: 18px;'>National First Prize (2017)</strong><br/><div class='award-description'>CSEE Cup 2017 National University Students Electrical Math Modeling Competition</div><div class='award-proof'><a href='http://shumo.neepu.edu.cn/' target='_blank'>Learn more</a></div></div>"

@@ -1,11 +1,11 @@
-- name: Dr. Richard Feynman
-  photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
-  cv: cv/cv.pdf
+- name: Yukai Wang
+  photo: 20235455.jpeg
+  info: PhD student, KAIST
+  email: yukai@kaist.ac.kr
+  github: https://github.com/yukiiwong
+#  researchgate: https://www.researchgate.net/
+  scholar: https://scholar.google.com/citations?hl=en&user=86WFIcAAAAAJ
+#  cv: cv/cv.pdf
   # Change the items in "education" you have (up to 6)
   education:
     [
