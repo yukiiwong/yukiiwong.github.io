@@ -9,3 +9,7 @@ gem "csv"
 gem "base64"
 gem "bigdecimal"
 gem "observer"
+
+group :jekyll_plugins do
+  gem "jekyll-timeago", "~> 0.13.1"
+end
