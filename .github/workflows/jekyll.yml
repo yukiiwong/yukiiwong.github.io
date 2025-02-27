@@ -62,3 +62,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Install Ruby manually
+        run: |
+          sudo apt update
+          sudo apt install -y ruby-full
+          ruby -v  # 检查 Ruby 版本
+        
