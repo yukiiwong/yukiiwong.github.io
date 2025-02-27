@@ -29,8 +29,9 @@ contact: >
 nav_pages:
   - name: about
   - name: publications
-  - name: project
-  - name: software
+  # - name: project
+  # - name: software
+  - name: blogs
 #  - name: blogs
 
 include:
@@ -59,8 +60,8 @@ kramdown:
 plugins: ["jekyll/scholar"]
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: Wang
+  first_name: [Yukai]
 
   style: citesty
   locale: en
