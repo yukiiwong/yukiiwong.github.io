@@ -56,7 +56,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: build
     steps:
       - name: Deploy to GitHub Pages
@@ -65,18 +65,18 @@ jobs:
       
               
       - name: Setup Ruby
-              uses: ruby/setup-ruby@v1
-              with:
-                ruby-version: '3.1'  # 确保 Ruby 版本正确
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'  # 确保 Ruby 版本正确
 
       - name: Install dependencies
-              run: bundle install
+        run: bundle install
 
       - name: Build site
-              run: bundle exec jekyll build
+        run: bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
-              uses: peaceiris/actions-gh-pages@v3
-              with:
-                github_token: ${{ secrets.GITHUB_TOKEN }}
-                publish_dir: ./_site
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
