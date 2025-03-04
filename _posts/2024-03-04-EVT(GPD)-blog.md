@@ -62,18 +62,6 @@ This means that for a **sufficiently high threshold \( u \)**, the exceedances a
 - Too **high**: Reduces the sample size, leading to unstable parameter estimation.
 
 
-####  What Does This Theorem Mean?
-Suppose we have a dataset of some variable \( X \) (e.g., daily rainfall, stock price drops, Time-To-Collision in autonomous driving).
-- We select a high threshold \( u \), and look at all values that exceed \( u \), which we define as:
-
-  \[
-  Y = X - u \quad \text{for} \quad X > u
-  \]
-
-- This means \( Y \) represents **how much larger** an extreme event is beyond \( u \).
-
-- The theorem states that **for a sufficiently high threshold \( u \), the exceedances \( Y \) follow a GPD, regardless of the original distribution of \( X \).**  
-  - This is a **remarkable result** because it means that **GPD is a universal model** for extreme events across many fields (finance, meteorology, traffic safety, etc.).
 
 
 
