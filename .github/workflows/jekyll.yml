@@ -25,10 +25,16 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true
+          bundler-cache: false  # 避免错误缓存
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y libffi-dev build-essential zlib1g-dev
 
       - name: Add Linux platform to Gemfile.lock
         run: bundle lock --add-platform x86_64-linux
+
+      - name: Clean Bundler Cache
+        run: rm -rf vendor/bundle Gemfile.lock
 
       - name: Install dependencies
         run: bundle install --jobs 4 --retry 3
