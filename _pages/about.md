@@ -1,83 +1,40 @@
 ---
 title: "About"
 layout: gridlay
-sitemap: false
 permalink: /about/
 ---
+<p class="eyebrow">Background &amp; experience</p>
 
-## About
+# About me
 
-{% for member in site.data.pi %}
+I am **Yukai Wang (王于凯)**, a PhD student at KAIST's Cho Chun Shik Graduate School of Mobility. My research combines traffic modeling, machine learning, and safety analysis, with a current focus on learning and evaluating multi-agent traffic world models from drone trajectory data.
 
-<div class="jumbotron">
-<div class="row">
-<div class="col-sm-4">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
-</div>
-<div class="col-sm-8 col-xs-12">
-  <h3>{{ member.name }}</h3>
-  <h4><i>{{ member.info }}</i></h4>
-  {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
-  {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
-  {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
-  {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
-  {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
+I am advised by [Prof. Tiantian Chen](https://sites.google.com/view/chentiantian/home) and work in the [Human Factors Centered Transport Safety Laboratory](https://human-facts.kaist.ac.kr/). My earlier work at Southeast University, advised by Prof. Zhiyuan Liu, focused on transportation and learning-based decision methods.
 
-  <ul style="overflow: hidden">
-    {% for education in member.education %}
-      <li>{{ education | replace: "-","&#8211;" }}</li>
-    {% endfor %}
-  </ul>
+## Education
 
-</div>
-</div>
-</div>
+{% for entry in site.data.profile.education %}
+<div class="timeline-entry"><div class="timeline-date">{{ entry.dates }}</div><div><h3>{{ entry.degree }} · {{ entry.institution }}</h3><p>{{ entry.department }}</p>{% if entry.advisor %}<p class="muted">Advisor: Prof. {{ entry.advisor }}</p>{% endif %}{% if entry.note %}<p class="muted">{{ entry.note }}</p>{% endif %}</div></div>
 {% endfor %}
 
-{% if site.data.grants %}
+## Research experience
 
-<div class="jumbotron">
-  <h3>Education</h3>
-  <ul>
-    {% for grant in site.data.grants %}
-      <li>{{ grant.name }}</li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
+**Doctoral research, KAIST · 2023–present.** Multi-agent trajectory learning and traffic world models; closed-loop evaluation and rollout diagnostics; world-model reinforcement learning; traffic-conflict and extreme-value methods. See [Research]({{ '/research/' | relative_url }}) for project descriptions, figures, and current status.
 
-{% if site.data.awards %}
+**Graduate research, Southeast University · 2020–2023.** Transportation research with Prof. Zhiyuan Liu. Related collaborative work on deep reinforcement learning for joint travel-mode and departure-time choice appeared in *Multimodal Transportation* in 2024.
 
-<div class="jumbotron">
-  <h3>Awards</h3>
-  <ul>
-    {% for award in site.data.awards %}
-      <li>{{ award.name | replace: "-","&#8211;" }}</li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
+## Industry experience
 
-{% if site.data.people %}
+<div class="timeline-entry"><div class="timeline-date">{{ site.data.profile.industry.dates }}</div><div><h3>{{ site.data.profile.industry.role }} · {{ site.data.profile.industry.company }}</h3><p>{{ site.data.profile.industry.department }}</p></div></div>
 
-<div class="jumbotron">
-  <h3>Internship</h3>
-  <ul>
-    {% for student in site.data.people %}
-      <li>{{ student.name }}, {{ student.location }} ({{ student.degree }}, {{ student.year }})</li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
+## Selected awards
 
-[//]: # (<div class="jumbotron">)
+{% for award in site.data.profile.awards %}
+<div class="timeline-entry"><div class="timeline-date">{{ award.year }}</div><div><h3>{{ award.title }}</h3><p>{{ award.event }}</p></div></div>
+{% endfor %}
 
-[//]: # (  <h4>Sponsors</h4>)
+## Research methods and tools
 
-[//]: # (  <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>)
+Graph neural networks; recurrent state-space models; neural ODEs; autoregressive trajectory models; reinforcement learning; surrogate safety measures; extreme value theory; recording-disjoint evaluation and bootstrap diagnostics. Implementation experience includes Python, PyTorch / PyTorch Lightning, CARLA-based simulation, Git, and LaTeX.
 
-[//]: # (  {% for funder in site.data.funders %}<a href="{{ funder.url }}" target="_blank"><img src='{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>{% endfor %})
-
-[//]: # (  </div>)
-
-[//]: # (</div>)
+<div class="action-links"><a class="button-primary" href="{{ '/cv/Yukai_Wang_CV.pdf' | relative_url }}">Download CV</a><a class="button-secondary" href="mailto:yukai@kaist.ac.kr">Get in touch</a></div>

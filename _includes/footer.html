@@ -1,27 +1,10 @@
-<br/>
-<section id="footer">
-<div class="container-footer">
-  <div class="panel-footer">
-	  <div class="row">
-		<div class="col-sm-4">
-		    <h5>About</h5>	
-            <p>{{ site.affiliation }}</p>
-		</div>
-
-		<div class="col-sm-4">
-		    <h5>Contact</h5>	
-            <p>{{ site.contact }}</p>
-		</div>
-
-		<div class="col-sm-4">
-		    <h5>Coordinates</h5>	
-            <p>{{ site.location }}</p>
-		</div>
-	  </div>
-
-      <center><p>&copy {{ "now" | date: "%Y" }} {{site.title | escape }} </p></center>
-	</div>
+<footer id="footer">
+  <div class="container-footer">
+    <div class="row">
+      <div class="col-sm-6"><h3>Yukai Wang</h3><p>Cho Chun Shik Graduate School of Mobility<br/>KAIST · Daejeon, Republic of Korea</p></div>
+      <div class="col-sm-6 footer-contact"><a href="mailto:yukai@kaist.ac.kr">yukai@kaist.ac.kr</a><br/><a href="https://github.com/yukiiwong">GitHub</a> · <a href="{{ '/cv/' | relative_url }}">Curriculum vitae</a></div>
+    </div>
+    <p class="small muted">&copy; {{ "now" | date: "%Y" }} Yukai Wang · Updated September 2026</p>
   </div>
-</div>
-
-<script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+</footer>
+<script src="{{ '/assets/javascript/bootstrap/bootstrap.bundle.min.js' | relative_url }}"></script>

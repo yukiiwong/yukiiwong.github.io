@@ -1,7 +1,7 @@
-<!-- Google Tag Manager (noscript) -->
+{% if site.google_tag_manager %}
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+{% endif %}
 
 <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
@@ -16,7 +16,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="navbar-nav mr-auto">
             <a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
             {% for page in site.nav_pages %}       
-                <a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
+                <a class="nav-item nav-link" href="{{ site.baseurl }}/{{page.name}}/">{% if page.label %}{{page.label}}{% else %}{{page.name | capitalize }}{% endif %}</a>
             {% endfor %}
         </div>
     </div>

@@ -1,35 +1,28 @@
 ---
 title: "Publications"
 layout: gridlay
-sitemap: false
 permalink: /publications/
-years: [2016, 2017, 2018, 2019, 2020, 2021]
 ---
+<p class="eyebrow">Publications &amp; conference work</p>
 
-<style>
-.jumbotron{
-    padding:3%;
-    padding-bottom:10px;
-    padding-top:10px;
-    margin-top:10px;
-    margin-bottom:30px;
-}
-</style>
+# Research record
 
-<div class="jumbotron">
-### Preprints111
+## Journal article
 
-{% bibliography --query @unpublished %}
-</div>
+{% for item in site.data.publications %}{% if item.kind == 'journal' %}
+<article class="publication-entry"><span class="publication-year">{{ item.year }}</span><h3>{{ item.title }}</h3><p>{{ item.authors | replace: 'Yukai Wang', '<strong>Yukai Wang</strong>' }}<br/><em>{{ item.venue }}</em></p><a href="{{ item.url }}">DOI / article</a> · <a href="{{ item.source }}">Open-access record</a></article>
+{% endif %}{% endfor %}
 
-<div class="jumbotron">
-### Refereed journal articles222
+## Conference contributions
 
-{% bibliography --query @article %}
-</div>
+{% for item in site.data.publications %}{% if item.kind == 'conference' %}
+<article class="publication-entry"><span class="publication-year">{{ item.year }}</span><h3>{{ item.title }}</h3><p>{{ item.authors | replace: 'Yukai Wang', '<strong>Yukai Wang</strong>' }}<br/><em>{{ item.venue }}</em></p><a href="{{ item.url }}">Laboratory conference record</a></article>
+{% endif %}{% endfor %}
 
-<div class="jumbotron">
-### Refereed conference proceedings333
+## Ongoing manuscripts and projects
 
-{% bibliography --query @inproceedings %}
-</div>
+Recent work covers trajectory world models from drone data, closed-loop rollout diagnostics, future-free candidate ranking, and surrogate safety assessment. These projects are presented with figures and clearly labeled research status on the [Research page]({{ '/research/' | relative_url }}).
+
+<p class="scope-note">Conference records and working manuscripts are listed separately from published journal articles. The ongoing PhD world-model studies are not presented as accepted journal publications.</p>
+
+For bibliographic updates, see [Google Scholar](https://scholar.google.com/citations?hl=en&user=86WFIcAAAAAJ).

@@ -1,0 +1,27 @@
+[
+  {
+    "kind": "journal",
+    "year": 2024,
+    "title": "A joint travel mode and departure time choice model in dynamic multimodal transportation networks based on deep reinforcement learning",
+    "authors": "Ziyuan Gu, Yukai Wang, Wei Ma, and Zhiyuan Liu",
+    "venue": "Multimodal Transportation, 3(3), 100137",
+    "url": "https://doi.org/10.1016/j.multra.2024.100137",
+    "source": "https://ira.lib.polyu.edu.hk/handle/10397/110015"
+  },
+  {
+    "kind": "conference",
+    "year": 2025,
+    "title": "ProSafeAV: Enhancing Proactive Safety Performance of AVs using World Model-Based Reinforcement Learning and Extreme Value Theory",
+    "authors": "Yukai Wang, Tiantian Chen, and Sikai Chen",
+    "venue": "TRB Annual Meeting 2025",
+    "url": "https://human-facts.kaist.ac.kr/bbs/board.php?bo_table=sub5_2&wr_id=8"
+  },
+  {
+    "kind": "conference",
+    "year": 2024,
+    "title": "A Synergistic Approach to Real-Time Crash Risk Estimation at Signalized Intersections: Integrating Learning-Based Anomaly Detection with Extreme Value Theory",
+    "authors": "Yukai Wang, Tiantian Chen, and Kitae Jang",
+    "venue": "Conference in Emerging Technologies in Transportation Systems (TRC-30), September 2–4, 2024",
+    "url": "https://human-facts.kaist.ac.kr/bbs/board.php?bo_table=sub5_2&wr_id=6"
+  }
+]

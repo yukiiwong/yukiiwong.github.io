@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-
-  <div id="homeid" class="col-sm-7 col-xs-12">
-	{{ content }}
+<div id="homeid" class="col-md-8 col-xs-12">{{ content }}</div>
+<aside id="newsid" class="col-md-4 col-xs-12">{% include sidebar.html %}</aside>
+<section class="col-12 selected-research" aria-labelledby="selected-research-title">
+  <div class="section-heading"><div><p class="eyebrow">Research portfolio</p><h2 id="selected-research-title">Selected research</h2></div><a href="{{ '/research/' | relative_url }}">All projects &rarr;</a></div>
+  <div class="research-grid">
+    {% for project in site.data.research %}{% if project.featured %}{% include research-card.html project=project %}{% endif %}{% endfor %}
   </div>
-  
-  <div id="newsid" class="col-sm-5 col-xs-12" >
-	{% include sidebar.html %}
-  </div>
+</section>

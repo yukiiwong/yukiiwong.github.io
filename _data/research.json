@@ -1,0 +1,117 @@
+[
+  {
+    "id": "drone-world-models",
+    "title": "World models from drone trajectories",
+    "status": "Research project · Working manuscript",
+    "featured": true,
+    "image": "ind-prediction.gif",
+    "alt": "Multi-agent trajectory prediction on an overhead inD intersection scene",
+    "tags": [
+      "GP-RSSM",
+      "Interaction graphs",
+      "Neural ODEs"
+    ],
+    "summary": "Learning interaction-aware, multimodal traffic dynamics from overhead observations of vehicles, cyclists, and pedestrians.",
+    "description": "I explore site-centric world models that represent an entire traffic scene through interacting road users. The GP-RSSM line combines a graph-conditioned recurrent state-space model with a second-order neural ODE decoder and multimodal motion hypotheses. The aim is to model both interaction dynamics and uncertainty, while distinguishing observation-conditioned prediction from self-conditioned rollout.",
+    "contribution": "Graph-based temporal modeling, physically grounded trajectory decoding, and evaluation under full, partial, and prior-only observation grounding, using drone trajectory datasets including inD, rounD, and highD.",
+    "scope": "The animation is a qualitative prediction example on inD, not evidence of closed-loop control performance. World model here refers to trajectory-level traffic dynamics, rather than photorealistic video generation.",
+    "caption": "Prediction visualization from the GP-RSSM research code. Scene imagery and trajectories: inD / levelXdata.",
+    "secondary_image": "graph-rssm-framework.png",
+    "secondary_alt": "Graph-RSSM framework with interaction graph encoder, latent rollout, physical decoder and mixture fusion",
+    "secondary_caption": "Graph-RSSM architecture from the author's trajectory world-model manuscript materials.",
+    "cv": "Develop graph-conditioned recurrent state-space models with neural ODE motion decoding; evaluate multimodal prediction and observation-grounded versus self-conditioned rollout on drone trajectory data."
+  },
+  {
+    "id": "rollout-diagnostics",
+    "title": "Understanding why closed-loop rollouts fail",
+    "status": "Working manuscript",
+    "featured": true,
+    "image": "rollout-protocol.png",
+    "alt": "Four-regime diagnostic independently switches logged versus policy actions and target versus predicted graphs",
+    "tags": [
+      "Distribution shift",
+      "Error compounding",
+      "Controlled diagnostics"
+    ],
+    "summary": "Separating action-source shift, interaction-graph changes, and the timing of error accumulation in multi-agent forecasting.",
+    "description": "Accurate forecasts under logged inputs can deteriorate when a model consumes its own predictions. This study independently switches action and graph sources, then uses prefix interventions and matched-error temporal controls to investigate where the rollout gap originates and when it develops.",
+    "contribution": "A paired four-regime diagnostic, early-step replacement experiments, and temporal error controls. In the audited model family, action-source shift and early error accumulation explain much of the measured rollout gap; these findings are evaluated within the specified checkpoints and data protocol.",
+    "scope": "The interventions diagnose model-internal behavior. They do not establish real-world causal effects or certify a planner's safety.",
+    "caption": "Four-regime protocol from the working manuscript, Where Closed-Loop Rollouts Break: Action-Source Shift and Early Error Compounding in Multi-Agent Forecasting.",
+    "cv": "Design paired action/graph source-switch diagnostics and temporal controls to investigate distribution shift and early error compounding in autoregressive multi-agent rollouts."
+  },
+  {
+    "id": "decision-utility",
+    "title": "From predictive validity to decision utility",
+    "status": "Working manuscript",
+    "featured": false,
+    "image": "ranking-protocol.png",
+    "alt": "Future-free action candidate ranking: past observations, fixed action bank, model scoring, choice lock, then reference evaluation",
+    "tags": [
+      "Candidate ranking",
+      "Future-free evaluation",
+      "Decision regret"
+    ],
+    "summary": "Testing whether a traffic dynamics model can rank available actions, rather than only predict a recorded future.",
+    "description": "This work studies the gap between predictive accuracy and action-selection usefulness. Selectors receive the same action candidates built from observed history, lock their choices before reference evaluation, and are compared on recording-disjoint data. The protocol includes analytic motion anchors, learned controls, and explicit checks against future-information leakage.",
+    "contribution": "A controlled candidate-ranking pipeline, rank-fidelity and regret measurements, and certificate-transfer tests. The study finds that improved closed-loop prediction does not consistently translate into better candidate ranking under the audited reference.",
+    "scope": "Driving-quality scores are simulator-relative surrogates. They are not on-road safety estimates, and the learned controls are local adaptations rather than official benchmark reproductions.",
+    "caption": "Evaluation framework from the working manuscript, Validity Before Utility: Future-Free Candidate Ranking with Audited Traffic Dynamics Models.",
+    "cv": "Build recording-disjoint, future-free candidate-ranking audits with fixed candidate banks, analytic baselines, leakage checks, rank fidelity, and reference-relative regret."
+  },
+  {
+    "id": "prosafeav",
+    "title": "ProSafeAV: world models meet tail-risk modeling",
+    "status": "TRB Annual Meeting 2025 · Ongoing development",
+    "featured": true,
+    "image": "prosafeav-framework.png",
+    "alt": "ProSafeAV conceptual architecture connects a world model, reinforcement learning and an extreme-value risk model",
+    "tags": [
+      "World-model RL",
+      "Extreme value theory",
+      "CARLA"
+    ],
+    "summary": "Connecting imagined traffic outcomes, surrogate safety measures, and extreme value theory for risk-aware driving research.",
+    "description": "ProSafeAV explores a world-model-based reinforcement-learning framework that incorporates traffic-conflict indicators and extreme value theory. The research asks how predicted traffic interactions and tail-risk information can support proactive driving decisions. Implementation work uses a CARLA-based simulation environment and Dreamer-style latent dynamics.",
+    "contribution": "Research on the interface between latent prediction, surrogate safety indicators, tail-risk estimation, and policy learning. The project connects my earlier traffic-safety work with my current focus on world models.",
+    "scope": "The figure describes the research framework. Ongoing simulator experiments and journal-development work are distinct from the 2025 conference record; no real-world safety guarantee is implied.",
+    "caption": "Conceptual framework from the author's ProSafeAV manuscript materials.",
+    "record_url": "https://human-facts.kaist.ac.kr/bbs/board.php?bo_table=sub5_2&wr_id=8",
+    "cv": "Study world-model-based reinforcement learning with traffic-conflict indicators and extreme value theory; develop and evaluate the approach in CARLA-based simulation. Conference work listed at TRB 2025."
+  },
+  {
+    "id": "surrogate-safety",
+    "title": "Safety assessment from forecasted trajectories",
+    "status": "Research in progress",
+    "featured": true,
+    "image": "safety-protocol.png",
+    "alt": "Observed history and focal forecasts feed a leakage-controlled pipeline for pairwise surrogate safety diagnostics",
+    "tags": [
+      "Surrogate safety",
+      "Information leakage",
+      "Tail diagnostics"
+    ],
+    "summary": "Examining how trajectory prediction errors and information boundaries affect traffic-conflict and tail-risk diagnostics.",
+    "description": "This research connects black-box multi-agent forecasting with surrogate safety assessment. A leakage-controlled pipeline converts predicted motion into pairwise conflict indicators and event-level diagnostics, making the information available to the predictor explicit.",
+    "contribution": "Protocol development and pilot diagnostics across overhead traffic datasets, including time-to-collision, closest-approach, and required-deceleration indicators, event identification, and tail behavior.",
+    "scope": "This is ongoing protocol and pilot work. PET/MTTC components in the framework include proxy diagnostics; broader model comparisons and publication-grade tail-risk validation remain development goals.",
+    "caption": "Protocol figure from the author's working manuscript on leakage-controlled surrogate safety assessment.",
+    "cv": "Develop leakage-controlled pipelines from predicted trajectories to traffic-conflict indicators, event-level diagnostics, and tail-risk analysis."
+  },
+  {
+    "id": "digital-twins",
+    "title": "Behavioral validity and cross-site generalization",
+    "status": "Research in progress",
+    "featured": false,
+    "tags": [
+      "Digital twins",
+      "Cross-domain evaluation",
+      "Behavioral validity"
+    ],
+    "summary": "Studying which aspects of real traffic a calibrated simulator or learned model actually preserves.",
+    "description": "My recent work extends the evaluation question to calibrated traffic microsimulation and cross-site trajectory models. One line separates support, interaction selection, marginal distributions, and dependence in behavioral validity. Another compares graph-based and autoregressive learners across roundabout datasets under common information and map contracts.",
+    "contribution": "Layered behavioral diagnostics for calibrated twins and a common evaluation pipeline for graph-GRU, graph-RSSM, and token-autoregressive models across rounD and openDD.",
+    "scope": "These are ongoing studies. Observational realism, simulator-relative counterfactual evaluation, and real-world causal validity are treated as different questions.",
+    "cv": "Investigate layered behavioral validity in calibrated microsimulation and cross-site evaluation of graph-based and autoregressive traffic models."
+  }
+]

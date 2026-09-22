@@ -1,0 +1,4 @@
+<article class="research-card">
+  <a class="research-image" href="{{ '/research/' | relative_url }}#{{ include.project.id }}" aria-label="Read about {{ include.project.title | escape }}"><img src="{{ '/images/research/' | append: include.project.image | relative_url }}" alt="{{ include.project.alt | escape }}" loading="lazy" width="800" height="500" /></a>
+  <div class="research-card-body"><p class="project-status">{{ include.project.status }}</p><h3><a href="{{ '/research/' | relative_url }}#{{ include.project.id }}">{{ include.project.title }}</a></h3><p>{{ include.project.summary }}</p><p class="project-tags">{{ include.project.tags | join: ' · ' }}</p><a class="read-more" href="{{ '/research/' | relative_url }}#{{ include.project.id }}">Project details &rarr;</a></div>
+</article>

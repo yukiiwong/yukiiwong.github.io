@@ -1,9 +1,9 @@
 # Site settings
 title: Yukai Wang
 email: yukai@kaist.ac.kr
-description: Webpage of Yukai
+description: Yukai Wang, PhD student at KAIST. Traffic world models, multi-agent learning, reinforcement learning, and traffic safety.
 baseurl: ""
-url: ""
+url: "https://yukiiwong.github.io"
 
 # Google analytics ID: Uncomment and your own, if you like
 # google_analytics: XX
@@ -22,17 +22,17 @@ location: >
   Republic of Korea
 
 contact: >
-  <a href="yukai@kaist.ac.kr" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Yukai via email</a> <br/>
+  <a href="mailto:yukai@kaist.ac.kr" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Yukai via email</a> <br/>
   <a href="https://github.com/yukiiwong"><i class="fa fa-github fa-1x"></i> This is my Github!</a>
 
 # Pages shown in navbar
 nav_pages:
+  - name: research
   - name: about
   - name: publications
-  # - name: project
-  # - name: software
+  - name: cv
+    label: CV
   - name: blogs
-#  - name: blogs
 
 include:
   - .htaccess
@@ -56,7 +56,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+  parse_block_html: false
 
 plugins: ["jekyll/scholar"]
 
@@ -93,3 +93,15 @@ exclude:
   - tags
   - Rakefile
 
+
+  - README.md
+  - .idea
+  - tools
+  - vendor
+  - _pages/team.md
+  - _pages/talks.md
+  - _pages/teaching.md
+  - _pages/software.md
+  - papers/example_proceeding.pdf
+  - papers/feynman06.pdf
+  - papers/feynman39.pdf

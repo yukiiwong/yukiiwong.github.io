@@ -1,0 +1,64 @@
+{
+  "name": "Yukai Wang",
+  "email": "yukai@kaist.ac.kr",
+  "website": "https://yukiiwong.github.io",
+  "github": "https://github.com/yukiiwong",
+  "scholar": "https://scholar.google.com/citations?hl=en&user=86WFIcAAAAAJ",
+  "updated": "September 2026",
+  "education": [
+    {
+      "dates": "2023 - present",
+      "degree": "PhD student",
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "department": "Cho Chun Shik Graduate School of Mobility",
+      "advisor": "Tiantian Chen"
+    },
+    {
+      "dates": "2020 - 2023",
+      "degree": "Master's degree",
+      "institution": "Southeast University",
+      "department": "School of Transportation",
+      "advisor": "Zhiyuan Liu"
+    },
+    {
+      "dates": "2016 - 2020",
+      "degree": "Bachelor's degree",
+      "institution": "Southwest Jiaotong University",
+      "department": "Mao Yisheng Honors College",
+      "note": "Honorable Student of Mao Yisheng Honors College"
+    }
+  ],
+  "industry": {
+    "dates": "April - July 2023",
+    "role": "Data Analyst Intern",
+    "company": "Shokz",
+    "department": "North America Marketing Department"
+  },
+  "awards": [
+    {
+      "year": 2021,
+      "title": "Top 20, AI Competition",
+      "event": "RLChina Reinforcement Learning Summer School"
+    },
+    {
+      "year": 2019,
+      "title": "National First Prize",
+      "event": "14th National Competition of Transport Science and Technology for Students"
+    },
+    {
+      "year": 2019,
+      "title": "Honorable Mention",
+      "event": "Interdisciplinary Contest in Modeling"
+    },
+    {
+      "year": 2018,
+      "title": "National First Prize",
+      "event": "China Undergraduate Mathematical Contest in Modeling"
+    },
+    {
+      "year": 2017,
+      "title": "National First Prize",
+      "event": "CSEE Cup National University Students Electrical Mathematical Modeling Competition"
+    }
+  ]
+}
