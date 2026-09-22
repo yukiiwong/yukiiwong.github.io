@@ -9,7 +9,7 @@ permalink: /cv/
 
 **{{ site.data.profile.role }} · KAIST**
 
-<div class="cv-preview"><p>A two-page academic CV covering education, research interests and experience, publications, manuscripts under review, selected awards, and technical skills. Updated {{ site.data.submissions.updated }}.</p><a class="button-primary" href="{{ '/cv/Yukai_Wang_CV.pdf' | relative_url }}">Download CV (PDF)</a></div>
+<div class="cv-preview"><p>A two-page academic CV covering education, research interests and experience, publications, manuscripts under review, selected awards, and technical skills. Available in English and Chinese; paper titles and bibliographic details remain in English. Updated {{ site.data.submissions.updated }}.</p><div class="action-links"><a class="button-primary" href="{{ '/cv/Yukai_Wang_CV.pdf' | relative_url }}">English CV (PDF)</a><a class="button-secondary" href="{{ '/cv/Yukai_Wang_CV_CN.pdf' | relative_url }}" lang="zh-CN">中文简历（PDF）</a></div></div>
 
 ## Research profile
 

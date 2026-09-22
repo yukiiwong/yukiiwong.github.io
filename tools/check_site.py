@@ -87,9 +87,10 @@ for rel in pages:
             dest.feed(target.read_text())
             if unquote(u.fragment) not in dest.ids:
                 failures.append(f'{rel}: missing anchor {link}')
-pdf = root / 'cv/Yukai_Wang_CV.pdf'
-if not pdf.is_file() or not pdf.read_bytes().startswith(b'%PDF-'):
-    failures.append('CV PDF missing or invalid')
+for filename in ('Yukai_Wang_CV.pdf', 'Yukai_Wang_CV_CN.pdf'):
+    pdf = root / 'cv' / filename
+    if not pdf.is_file() or not pdf.read_bytes().startswith(b'%PDF-'):
+        failures.append(f'CV PDF missing or invalid: {filename}')
 if failures:
     print('\n'.join(failures))
     sys.exit(1)

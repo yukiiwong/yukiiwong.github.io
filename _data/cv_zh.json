@@ -1,0 +1,83 @@
+{
+  "name": "王于凯",
+  "role": "博士候选人",
+  "institution": "韩国科学技术院（KAIST）",
+  "updated": "2026年9月22日",
+  "education": [
+    {
+      "institution": "韩国科学技术院（KAIST）",
+      "degree": "博士候选人",
+      "department": "出行研究生院（Cho Chun Shik Graduate School of Mobility）"
+    },
+    {
+      "institution": "东南大学",
+      "degree": "硕士",
+      "department": "交通学院"
+    },
+    {
+      "institution": "西南交通大学",
+      "degree": "学士",
+      "department": "茅以升学院",
+      "note": "茅以升学院荣誉学生"
+    }
+  ],
+  "research_interests": "面向交通场景而非单一自车的世界模型：利用无人机轨迹数据学习多交通参与者的交互动态，检验模型对决策与安全评估的实际价值，并探索其在交通数字孪生中的应用。",
+  "research_groups": [
+    {
+      "heading": "交通世界模型与模型评估",
+      "items": [
+        {
+          "project": "drone-world-models",
+          "related_projects": ["digital-twins"],
+          "label": "交通世界模型与数字孪生",
+          "text": "基于 inD、rounD 和 highD 无人机轨迹，构建结合交互图、潜在状态动力学与神经常微分方程解码的模型；研究学习模型和标定仿真器的行为有效性及跨场景迁移能力。"
+        },
+        {
+          "project": "rollout-diagnostics",
+          "label": "闭环预测诊断",
+          "text": "设计动作来源与交互图来源的配对切换实验及时间控制实验，分析分布偏移和早期误差累积对闭环多智能体预测的影响。"
+        },
+        {
+          "project": "missing-history",
+          "label": "历史信息缺失下的稳健性评估",
+          "text": "区分输入历史缺失与潜在状态更新路径干预，在信息条件一致的设置下比较不同预测模型的稳健性。"
+        }
+      ]
+    },
+    {
+      "heading": "决策效用与交通安全",
+      "items": [
+        {
+          "project": "decision-utility",
+          "related_projects": ["surrogate-safety"],
+          "label": "决策效用与安全评估",
+          "text": "检验预测精度提升是否带来更好的动作排序和前瞻性安全评估；基于固定候选动作集、按交通记录划分的独立评估及信息泄漏控制，开展冲突指标与尾部风险诊断。"
+        },
+        {
+          "project": "prosafeav",
+          "label": "ProSafeAV",
+          "text": "结合世界模型强化学习、交通冲突指标与极值理论，在 CARLA 仿真环境中研究和评估风险感知驾驶策略。"
+        }
+      ]
+    }
+  ],
+  "graduate_research": "在 Zhiyuan Liu 教授指导下开展交通研究，参与基于强化学习的出行方式与出发时间联合选择研究。",
+  "industry": {
+    "role": "数据分析实习生",
+    "company": "韶音（Shokz）",
+    "dates": "2023年4月 - 7月",
+    "department": "北美市场部"
+  },
+  "awards": [
+    {"title": "前20名", "event": "RLChina 强化学习暑期学校 AI 竞赛"},
+    {"title": "全国一等奖", "event": "第十四届全国大学生交通科技大赛"},
+    {"title": "荣誉奖（Honorable Mention）", "event": "美国大学生交叉学科建模竞赛（ICM）"},
+    {"title": "全国一等奖", "event": "全国大学生数学建模竞赛"},
+    {"title": "全国一等奖", "event": "CSEE Cup 全国大学生电工数学建模竞赛"}
+  ],
+  "skills": [
+    {"label": "建模方法", "text": "图神经网络、循环状态空间模型、神经常微分方程、强化学习。"},
+    {"label": "安全评估与验证", "text": "替代安全指标、极值理论、自助法诊断、按交通记录划分的独立评估。"},
+    {"label": "软件工具", "text": "Python、PyTorch / PyTorch Lightning、CARLA、Git、LaTeX。"}
+  ]
+}
