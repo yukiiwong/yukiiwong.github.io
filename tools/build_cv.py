@@ -193,6 +193,9 @@ for group in cv['research_groups']:
     story.append(p(plain(group['heading']), 'theme'))
     for item in group['items']:
         project = projects[item['project']]
+        for related in item.get('related_projects', []):
+            if projects[related]['status'] != project['status']:
+                raise ValueError('Split grouped CV research when project statuses differ: ' + item['label'])
         status = project['status'].split(' · Earlier')[0].replace(' · ', ', ')
         story.append(bullet('<b>' + plain(item['label']) + '.</b> ' + plain(item['text']) +
                             ' <i>(' + plain(status) + ')</i>'))

@@ -6,8 +6,9 @@
       "items": [
         {
           "project": "drone-world-models",
-          "label": "Site-centric modeling",
-          "text": "Develop graph-conditioned latent dynamics with neural ODE motion decoding for multi-agent trajectories in inD, rounD, and highD."
+          "related_projects": ["digital-twins"],
+          "label": "Traffic world models and digital twins",
+          "text": "Develop graph-conditioned latent dynamics with neural ODE decoding from inD, rounD, and highD trajectories; assess behavioral validity and cross-site transfer of learned models and calibrated simulators."
         },
         {
           "project": "rollout-diagnostics",
@@ -26,28 +27,14 @@
       "items": [
         {
           "project": "decision-utility",
-          "label": "Decision utility",
-          "text": "Test whether prediction gains transfer to action ranking using fixed candidate banks, recording-disjoint evaluation, and regret diagnostics."
-        },
-        {
-          "project": "surrogate-safety",
-          "label": "Forecast-driven safety",
-          "text": "Develop leakage-controlled conflict and tail-risk diagnostics, explicitly testing assumptions about surrounding agents' unknown futures."
+          "related_projects": ["surrogate-safety"],
+          "label": "Decision utility and safety assessment",
+          "text": "Test whether prediction gains improve action ranking and forecast-based safety screening; develop recording-disjoint, leakage-controlled protocols with fixed candidate banks, conflict indicators, and tail-risk diagnostics."
         },
         {
           "project": "prosafeav",
           "label": "ProSafeAV",
           "text": "Integrate world-model reinforcement learning, traffic-conflict indicators, and extreme value theory; evaluate policies in CARLA-based simulation."
-        }
-      ]
-    },
-    {
-      "heading": "Traffic Digital Twins",
-      "items": [
-        {
-          "project": "digital-twins",
-          "label": "Behavioral validity",
-          "text": "Investigate which interaction patterns calibrated simulators and learned models preserve, and how their validity transfers across traffic sites."
         }
       ]
     }
