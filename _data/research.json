@@ -2,7 +2,7 @@
   {
     "id": "drone-world-models",
     "title": "World models from drone trajectories",
-    "status": "Research programme · Ongoing",
+    "status": "Ongoing",
     "featured": true,
     "image": "ind-prediction.gif",
     "image_width": 800,
@@ -57,7 +57,7 @@
   {
     "id": "decision-utility",
     "title": "From predictive validity to decision utility",
-    "status": "Working manuscript",
+    "status": "Ongoing",
     "featured": false,
     "image": "prediction-utility-transfer.png",
     "image_width": 1800,
@@ -107,7 +107,7 @@
   {
     "id": "surrogate-safety",
     "title": "Safety assessment from forecasted trajectories",
-    "status": "Research in progress",
+    "status": "Ongoing",
     "featured": true,
     "image": "safety-policy-effects.png",
     "image_width": 2000,
@@ -148,7 +148,7 @@
   {
     "id": "digital-twins",
     "title": "Behavioral validity and cross-site generalization",
-    "status": "Research in progress",
+    "status": "Ongoing",
     "featured": false,
     "tags": [
       "Digital twins",

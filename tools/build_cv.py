@@ -65,7 +65,7 @@ def footer(canvas, doc):
 
 story = [
     p('YUKAI WANG', 'name'),
-    p('PhD student | Cho Chun Shik Graduate School of Mobility | KAIST', 'body'),
+    p(plain(profile['role']) + ' | Cho Chun Shik Graduate School of Mobility | KAIST', 'body'),
     p('<link href="mailto:yukai@kaist.ac.kr" color="#16745f">yukai@kaist.ac.kr</link>  |  '
       '<link href="https://yukiiwong.github.io" color="#16745f">yukiiwong.github.io</link>  |  '
       '<link href="https://github.com/yukiiwong" color="#16745f">GitHub: yukiiwong</link>', 'small'),
@@ -101,23 +101,17 @@ for item in publications:
         '<i>' + plain(item['venue']) + '</i>. '
         '<link href="'+escape(item['url'])+'" color="#16745f">[Record]</link>'), Spacer(1, 3)]))
 story.append(heading('Manuscripts under review'))
-story.append(p('Status as of ' + plain(submissions['updated']) + '. These manuscripts are not accepted publications.', 'small'))
+story.append(p('Status as of ' + plain(submissions['updated']) + '.', 'small'))
 for item in submissions['under_review']:
     story.append(submission_item(item))
-story.append(p('Current submissions, earlier attempts, and working drafts are listed separately. '
-               'The AAAI entries concern two distinct studies; the candidate-ranking manuscript '
-               'remains ongoing work rather than a listed submission.', 'small'))
+story.append(p('The AAAI entries concern two distinct studies. Additional ongoing projects are '
+               'listed separately on the following page.', 'small'))
 
-story += [PageBreak(), p('YUKAI WANG | RESEARCH DEVELOPMENT AND EXPERIENCE', 'item'),
-          heading('Earlier submissions'),
-          p('A record of earlier unsuccessful attempts, separate from publications and current review. '
-            'NeurIPS was withdrawn after review, not formally rejected.', 'small')]
-for item in submissions['previous']:
-    story.append(submission_item(item))
-story.append(heading('Additional ongoing research'))
+story += [PageBreak(), p('YUKAI WANG | ONGOING RESEARCH AND EXPERIENCE', 'item'),
+          heading('Ongoing research')]
 for key in ['decision-utility', 'surrogate-safety', 'digital-twins']:
     item = project_by_id[key]
-    story.append(KeepTogether([p(plain(item['title']), 'item'), p(plain(item['cv']), 'small'), Spacer(1, 3)]))
+    story.append(project_item(item))
 story.append(heading('Industry experience'))
 i = profile['industry']
 story.append(p('<b>'+plain(i['role'])+' | '+plain(i['company'])+'</b> | '+plain(i['dates'])+'<br/>'+plain(i['department'])))

@@ -7,7 +7,7 @@ permalink: /publications/
 
 # Research record
 
-This page records both completed work and the submission process. Current review status is updated as of **{{ site.data.submissions.updated }}**. Under-review and earlier unsuccessful submissions are not accepted publications.
+Published work, manuscripts under review, and ongoing projects are listed separately below. Current research status is updated as of **{{ site.data.submissions.updated }}**.
 
 ## Journal article
 
@@ -25,16 +25,12 @@ This page records both completed work and the submission process. Current review
 
 {% include submission-records.html items=site.data.submissions.under_review %}
 
-<h2 id="submission-history">Earlier submissions and research development</h2>
+<h2 id="ongoing-research">Ongoing research</h2>
 
-{{ site.data.research_story.development_note }}
+These active projects form part of my broader research programme. They are listed separately from the manuscripts currently under review.
 
-{% include submission-records.html items=site.data.submissions.previous history=true %}
-
-## Other working manuscripts and projects
-
-Future-free candidate ranking, forecast-driven surrogate safety assessment, and digital-twin validity remain ongoing research. They are not included in the under-review list above. Project descriptions and original experiment figures are on the [Research page]({{ '/research/' | relative_url }}).
-
-<p class="scope-note">Rejected and withdrawn are different outcomes. The NeurIPS entry records a withdrawal after review, not a formal rejection. Review correspondence and anonymous reviewer details are not reproduced here.</p>
+{% for project in site.data.research %}{% if project.status == 'Ongoing' %}
+<article class="submission-entry"><p class="submission-meta"><span class="submission-status">{{ project.status }}</span></p><h3><a href="{{ '/research/' | relative_url }}#{{ project.id }}">{{ project.title }}</a></h3><p>{{ project.cv }}</p></article>
+{% endif %}{% endfor %}
 
 For bibliographic updates, see [Google Scholar](https://scholar.google.com/citations?hl=en&user=86WFIcAAAAAJ).

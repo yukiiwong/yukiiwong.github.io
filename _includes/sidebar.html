@@ -2,7 +2,7 @@
 <div class="jumbotron profile-card">
   <a href="{{ '/about/' | relative_url }}"><img class="portrait" src="{{ '/images/' | append: member.photo | relative_url }}" alt="Portrait of Yukai Wang" width="220" height="220" /></a>
   <h2>{{ member.name }}</h2>
-  <p>PhD student · KAIST<br/>Human Factors Centered<br/>Transport Safety Laboratory</p>
+  <p>{{ site.data.profile.role }} · KAIST<br/>Human Factors Centered<br/>Transport Safety Laboratory</p>
   <a class="profile-email" href="mailto:{{ member.email }}">{{ member.email }}</a>
   <div class="profile-links"><a href="{{ member.scholar }}">Scholar</a><a href="{{ member.github }}">GitHub</a><a href="{{ '/cv/Yukai_Wang_CV.pdf' | relative_url }}">CV (PDF)</a></div>
 </div>

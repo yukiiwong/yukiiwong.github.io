@@ -7,7 +7,9 @@ permalink: /cv/
 
 # Yukai Wang
 
-<div class="cv-preview"><p>A stage-of-career overview of my research direction, education, publications, current and earlier submissions, industry experience, and selected awards. Updated {{ site.data.submissions.updated }}.</p><a class="button-primary" href="{{ '/cv/Yukai_Wang_CV.pdf' | relative_url }}">Download CV (PDF)</a></div>
+**{{ site.data.profile.role }} · KAIST**
+
+<div class="cv-preview"><p>A stage-of-career overview of my research direction, education, publications, manuscripts under review, ongoing projects, industry experience, and selected awards. Updated {{ site.data.submissions.updated }}.</p><a class="button-primary" href="{{ '/cv/Yukai_Wang_CV.pdf' | relative_url }}">Download CV (PDF)</a></div>
 
 ## Research profile
 
@@ -25,9 +27,9 @@ permalink: /cv/
 - [Why I study drone data and traffic world models]({{ '/research/' | relative_url }}#research-story)
 - [Journal article and conference contributions]({{ '/publications/' | relative_url }})
 - [Manuscripts under review: AMAR, T-ITS, and AAAI 2027]({{ '/publications/' | relative_url }}#under-review)
-- [Earlier submissions: AMAR, ICML, and NeurIPS]({{ '/publications/' | relative_url }}#submission-history)
+- [Ongoing research]({{ '/publications/' | relative_url }}#ongoing-research)
 - [Industry experience and selected awards]({{ '/about/' | relative_url }})
 
-The PDF includes the same submission record as the website. Current manuscripts are separated from earlier unsuccessful attempts and from published work; NeurIPS is recorded as withdrawn.
+The PDF and website use the same research record, with published work, manuscripts under review, and ongoing projects clearly separated.
 
 Contact: [yukai@kaist.ac.kr](mailto:yukai@kaist.ac.kr).

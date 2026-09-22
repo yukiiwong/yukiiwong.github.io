@@ -34,6 +34,12 @@ for rel in pages:
     text = path.read_text()
     parser = Page()
     parser.feed(text)
+    if 'PhD Candidate' not in text:
+        failures.append(f'{rel}: current academic role missing')
+    for obsolete in ('PhD student', 'ICML', 'NeurIPS', 'Rejected', 'Withdrawn',
+                     'unsuccessful', 'Not accepted', 'submission-history'):
+        if obsolete in text:
+            failures.append(f'{rel}: obsolete public profile or submission text: {obsolete}')
     for placeholder in ['Preprints111', 'articles222', 'proceedings333', 'Example news here', 'Example Research', 'Feynman lectures', '&lt;/nav&gt;', '&lt;/article&gt;', '&lt;figcaption&gt;']:
         if placeholder in text:
             failures.append(f'{rel}: template placeholder {placeholder}')
@@ -57,11 +63,10 @@ for rel in pages:
             if not any(src.endswith('/' + figure) for src in sources):
                 failures.append(f'Research result figure missing: {figure}')
     if rel == 'publications/index.html':
-        for record in ('amar-current', 'tits-prosafeav', 'aaai-rollout', 'aaai-history',
-                       'amar-previous', 'icml-2026', 'neurips-2026'):
+        for record in ('amar-current', 'tits-prosafeav', 'aaai-rollout', 'aaai-history', 'ongoing-research'):
             if record not in parser.ids:
                 failures.append(f'Submission record missing: {record}')
-        for label in ('Under review', 'Rejected', 'Withdrawn', 'Not accepted'):
+        for label in ('Under review', 'Ongoing'):
             if label not in text:
                 failures.append(f'Submission outcome label missing: {label}')
     for link in parser.links:

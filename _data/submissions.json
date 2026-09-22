@@ -34,30 +34,5 @@
       "note": "Separating input-level missing-history tests from latent-pathway diagnostics.",
       "project": "missing-history"
     }
-  ],
-  "previous": [
-    {
-      "id": "amar-previous",
-      "title": "Earlier AMAR submission",
-      "venue": "Analytic Methods in Accident Research (AMAR)",
-      "status": "Not accepted",
-      "note": "An earlier unsuccessful submission, recorded separately from the current AMAR manuscript."
-    },
-    {
-      "id": "icml-2026",
-      "title": "World Modeling at Infrastructure-Free Intersections via Latent Interaction Dynamics",
-      "venue": "ICML 2026",
-      "status": "Rejected",
-      "note": "Earlier GP-RSSM manuscript; subsequent work investigates what trajectory-prediction results do and do not establish.",
-      "project": "drone-world-models"
-    },
-    {
-      "id": "neurips-2026",
-      "title": "When Observation Anchoring Weakens: A Diagnostic for Site-Centric Traffic Forecasting",
-      "venue": "NeurIPS 2026",
-      "status": "Withdrawn",
-      "note": "Withdrawn after review and substantially reworked into the missing-history evaluation study; not a formal rejection or an accepted publication.",
-      "project": "missing-history"
-    }
   ]
 }

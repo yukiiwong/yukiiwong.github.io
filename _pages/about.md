@@ -7,11 +7,11 @@ permalink: /about/
 
 # About me
 
-I am **Yukai Wang (王于凯)**, a PhD student at KAIST's Cho Chun Shik Graduate School of Mobility. My research combines traffic modeling, machine learning, and safety analysis, with a current focus on learning and evaluating multi-agent traffic world models from drone trajectory data.
+I am **Yukai Wang (王于凯)**, a **{{ site.data.profile.role }}** at KAIST's Cho Chun Shik Graduate School of Mobility. My research combines traffic modeling, machine learning, and safety analysis, with a current focus on learning and evaluating multi-agent traffic world models from drone trajectory data.
 
 I am advised by [Prof. Tiantian Chen](https://sites.google.com/view/chentiantian/home) and work in the [Human Factors Centered Transport Safety Laboratory](https://human-facts.kaist.ac.kr/). My earlier work at Southeast University, advised by Prof. Zhiyuan Liu, focused on transportation and learning-based decision methods.
 
-My current direction grew from traffic-conflict and extreme-value research: I wanted to understand future interactions, not only measure their outcomes. Drone trajectories let me ask that question at the scale of a traffic site. My aim is to develop traffic world models for transportation research beyond a single autonomous vehicle. [Read the research story]({{ '/research/' | relative_url }}#research-story), including how earlier submissions shaped the questions I now study.
+My current direction grew from traffic-conflict and extreme-value research: I wanted to understand future interactions, not only measure their outcomes. Drone trajectories let me ask that question at the scale of a traffic site. My aim is to develop traffic world models for transportation research beyond a single autonomous vehicle. [Read the research story]({{ '/research/' | relative_url }}#research-story) and the connected questions that guide my ongoing work.
 
 ## Education
 

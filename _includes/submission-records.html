@@ -1,7 +1,7 @@
 <div class="submission-list">
 {% for item in include.items %}
 <article class="submission-entry" id="{{ item.id }}">
-  <p class="submission-meta"><span class="submission-status {% if include.history %}submission-history{% endif %}">{{ item.status }}</span> {{ item.venue }}</p>
+  <p class="submission-meta"><span class="submission-status">{{ item.status }}</span> {{ item.venue }}</p>
   <h3>{{ item.title }}</h3>
   {% if item.authors %}<p class="submission-authors">{{ item.authors | replace: 'Yukai Wang', '<strong>Yukai Wang</strong>' }}</p>{% endif %}
   <p>{{ item.note }}</p>

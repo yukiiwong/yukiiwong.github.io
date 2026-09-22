@@ -1,5 +1,6 @@
 {
   "name": "Yukai Wang",
+  "role": "PhD Candidate",
   "email": "yukai@kaist.ac.kr",
   "website": "https://yukiiwong.github.io",
   "github": "https://github.com/yukiiwong",
@@ -8,7 +9,7 @@
   "education": [
     {
       "dates": "2023 - present",
-      "degree": "PhD student",
+      "degree": "PhD Candidate",
       "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
       "department": "Cho Chun Shik Graduate School of Mobility",
       "advisor": "Tiantian Chen"

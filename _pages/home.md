@@ -7,7 +7,7 @@ permalink: /
 <h1>Yukai Wang <span class="chinese-name">王于凯</span></h1>
 <p class="hero-subtitle">Traffic world models · Multi-agent learning · Safety</p>
 
-I am a PhD student at the **Cho Chun Shik Graduate School of Mobility, KAIST**, advised by [Prof. Tiantian Chen](https://sites.google.com/view/chentiantian/home), in the [Human Factors Centered Transport Safety Laboratory](https://human-facts.kaist.ac.kr/).
+I am a **{{ site.data.profile.role }}** at the **Cho Chun Shik Graduate School of Mobility, KAIST**, advised by [Prof. Tiantian Chen](https://sites.google.com/view/chentiantian/home), in the [Human Factors Centered Transport Safety Laboratory](https://human-facts.kaist.ac.kr/).
 
 My research asks how world models can serve **transportation beyond the control of a single autonomous vehicle**. I use **drone-recorded trajectories** to study the interactions of road users across an entire traffic site, with the aim of supporting traffic understanding, prospective safety assessment, and the evaluation of digital twins.
 
@@ -17,4 +17,4 @@ Previously, I completed my master's studies at **Southeast University** (2020–
 
 <div class="action-links"><a class="button-primary" href="{{ '/research/' | relative_url }}">Explore my research &rarr;</a><a class="button-secondary" href="{{ '/cv/Yukai_Wang_CV.pdf' | relative_url }}">Download CV</a></div>
 
-<p class="intro-note">This site is a record of work in progress, including published work, current submissions, and earlier unsuccessful attempts. <a href="{{ '/research/' | relative_url }}#research-story">Read the research story</a> or <a href="{{ '/publications/' | relative_url }}#under-review">view the submission record</a>.</p>
+<p class="intro-note">This site brings together my published work, manuscripts under review, and ongoing research. <a href="{{ '/research/' | relative_url }}#research-story">Read the research story</a> or <a href="{{ '/publications/' | relative_url }}#under-review">view current manuscripts</a>.</p>

@@ -13,12 +13,12 @@
     },
     {
       "heading": "From a predictor to a model we can question",
-      "text": "The initial goal was to learn plausible multi-agent futures. The harder question became what those futures justify. My ICML rejection and subsequent NeurIPS withdrawal are part of that development: the work moved toward testing observation dependence, locating closed-loop failures, and checking whether prediction improvements actually help action ranking. A useful traffic world model needs to be evaluated for its intended use, not only for how closely it follows a recorded trajectory."
+      "text": "The initial goal was to learn plausible multi-agent futures. The harder question became what those futures justify. This has led to a connected set of studies: testing observation dependence, locating closed-loop failures, and checking whether prediction improvements actually help action ranking. A useful traffic world model needs to be evaluated for its intended use, not only for how closely it follows a recorded trajectory."
     },
     {
       "heading": "A transportation-oriented research direction",
       "text": "My long-term aim is to develop a complementary direction to ego-vehicle world models: models for understanding traffic interactions, prospective safety screening, and the validity of traffic digital twins. Traffic operations and infrastructure evaluation are motivating future applications. I am building this agenda through explicit tests of what the models can and cannot support. Recorded trajectories support observational tests; credible intervention claims require additional assumptions and evidence."
     }
   ],
-  "development_note": "I include unsuccessful submissions because they are part of how this research developed. They helped sharpen the distinction between prediction accuracy, a valid evaluation, and evidence that supports a decision. My submission record separates those earlier attempts from current submissions and accepted work."
+  "development_note": "These studies form an ongoing research programme, connecting prediction accuracy, evaluation validity, and evidence that supports a decision. The research record lists published work, manuscripts under review, and ongoing projects separately."
 }

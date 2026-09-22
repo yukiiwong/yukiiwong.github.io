@@ -11,14 +11,14 @@ permalink: /research/
 
 <section class="research-story" id="research-story" aria-label="Research story">
 {% for part in site.data.research_story.paragraphs %}<div class="story-part"><h2>{{ part.heading }}</h2><p>{{ part.text }}</p></div>{% endfor %}
-<p class="intro-note">{{ site.data.research_story.development_note }} <a href="{{ '/publications/' | relative_url }}#submission-history">Submission history &rarr;</a></p>
+<p class="intro-note">{{ site.data.research_story.development_note }} <a href="{{ '/publications/' | relative_url }}#under-review">Current manuscripts &rarr;</a></p>
 </section>
 
 ## Research projects
 
 <nav class="project-index" aria-label="Research projects">{% for project in site.data.research %}<a href="#{{ project.id }}">{{ forloop.index | prepend: '0' }} · {{ project.title }}</a>{% endfor %}</nav>
 
-<p class="intro-note">Status updated {{ site.data.submissions.updated }}. Under-review manuscripts, working drafts, and earlier submissions are distinguished in the <a href="{{ '/publications/' | relative_url }}#under-review">research record</a>; none of these labels implies acceptance.</p>
+<p class="intro-note">Status updated {{ site.data.submissions.updated }}. Submitted manuscripts are marked Under review; other active projects are marked Ongoing. See the <a href="{{ '/publications/' | relative_url }}#under-review">research record</a> for current manuscripts and published work.</p>
 
 {% for project in site.data.research %}
 <article class="research-detail" id="{{ project.id }}">
