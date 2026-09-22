@@ -40,18 +40,30 @@ for rel in pages:
     for img in parser.images:
         if 'alt' not in img:
             failures.append(f'{rel}: image has no alt attribute')
+        if rel == 'research/index.html' and '/images/research/' in img.get('src', ''):
+            if not all(img.get(key, '').isdigit() and int(img[key]) > 0 for key in ('width', 'height')):
+                failures.append(f'{rel}: figure lacks intrinsic dimensions: {img.get("src")}')
     if rel == 'research/index.html' and len(parser.images) < 7:
         failures.append('Research figures did not render as images')
     if rel in ('index.html', 'research/index.html'):
-        for retired in ('rollout-protocol.png', 'ranking-protocol.png'):
+        for retired in ('rollout-protocol.png', 'ranking-protocol.png', 'safety-protocol.png'):
             if retired in text:
                 failures.append(f'{rel}: retired protocol illustration {retired}')
     if rel == 'research/index.html':
         sources = {img.get('src', '') for img in parser.images}
         for figure in ('rollout-error-propagation.png', 'rollout-placement-scenes.png',
-                       'prediction-utility-transfer.png', 'selector-tradeoff.png'):
+                       'prediction-utility-transfer.png', 'selector-tradeoff.png',
+                       'safety-policy-effects.png', 'safety-road-scenes.png'):
             if not any(src.endswith('/' + figure) for src in sources):
                 failures.append(f'Research result figure missing: {figure}')
+    if rel == 'publications/index.html':
+        for record in ('amar-current', 'tits-prosafeav', 'aaai-rollout', 'aaai-history',
+                       'amar-previous', 'icml-2026', 'neurips-2026'):
+            if record not in parser.ids:
+                failures.append(f'Submission record missing: {record}')
+        for label in ('Under review', 'Rejected', 'Withdrawn', 'Not accepted'):
+            if label not in text:
+                failures.append(f'Submission outcome label missing: {label}')
     for link in parser.links:
         u = urlsplit(link)
         if u.scheme not in ('', 'http', 'https') or u.netloc not in ('', 'yukiiwong.github.io', '127.0.0.1:4173'):

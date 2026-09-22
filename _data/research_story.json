@@ -1,0 +1,24 @@
+{
+  "title": "World models for traffic, beyond a single autonomous vehicle",
+  "thesis": "I want to develop world models that help us understand a traffic site as a whole: how road users interact, how risk emerges, and which predictions are useful for transportation decisions.",
+  "cv_profile": "My research develops a site-centric perspective on traffic world models, extending my interest in autonomous driving to the interactions and safety of an entire traffic scene. Using drone-recorded trajectories, I study multi-agent dynamics, observation dependence, closed-loop error propagation, and whether forecasts support defensible decisions and safety assessments. The longer-term goal is a transportation research tool for evaluating traffic scenes and digital twins, not only a model for controlling one vehicle.",
+  "paragraphs": [
+    {
+      "heading": "From measuring conflicts to anticipating interactions",
+      "text": "My earlier safety research combined anomaly detection and extreme value theory to study severe traffic conflicts. That work led me to a forward-looking question: before an interaction has finished, what can we say about how it will evolve and the risk it may create? ProSafeAV explores this question through world-model-based driving. My drone-data research asks it from the perspective of the traffic site."
+    },
+    {
+      "heading": "Why I keep returning to drone data",
+      "text": "Overhead trajectories put the visible road users into a shared spatial frame. They let me study a turning vehicle together with the cyclists, pedestrians, or vehicles around it, without choosing one vehicle as the centre of the problem. Intersections, roundabouts, and motorway segments offer different interaction settings. For me, these recordings are an empirical starting point for learning traffic dynamics, not a claim that overhead observations will always be available in deployment."
+    },
+    {
+      "heading": "From a predictor to a model we can question",
+      "text": "The initial goal was to learn plausible multi-agent futures. The harder question became what those futures justify. My ICML rejection and subsequent NeurIPS withdrawal are part of that development: the work moved toward testing observation dependence, locating closed-loop failures, and checking whether prediction improvements actually help action ranking. A useful traffic world model needs to be evaluated for its intended use, not only for how closely it follows a recorded trajectory."
+    },
+    {
+      "heading": "A transportation-oriented research direction",
+      "text": "My long-term aim is to develop a complementary direction to ego-vehicle world models: models for understanding traffic interactions, prospective safety screening, and the validity of traffic digital twins. Traffic operations and infrastructure evaluation are motivating future applications. I am building this agenda through explicit tests of what the models can and cannot support. Recorded trajectories support observational tests; credible intervention claims require additional assumptions and evidence."
+    }
+  ],
+  "development_note": "I include unsuccessful submissions because they are part of how this research developed. They helped sharpen the distinction between prediction accuracy, a valid evaluation, and evidence that supports a decision. My submission record separates those earlier attempts from current submissions and accepted work."
+}

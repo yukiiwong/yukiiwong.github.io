@@ -7,11 +7,11 @@ permalink: /cv/
 
 # Yukai Wang
 
-<div class="cv-preview"><p>A concise overview of my education, research experience, published and conference work, industry experience, and selected awards.</p><a class="button-primary" href="{{ '/cv/Yukai_Wang_CV.pdf' | relative_url }}">Download CV (PDF)</a></div>
+<div class="cv-preview"><p>A stage-of-career overview of my research direction, education, publications, current and earlier submissions, industry experience, and selected awards. Updated {{ site.data.submissions.updated }}.</p><a class="button-primary" href="{{ '/cv/Yukai_Wang_CV.pdf' | relative_url }}">Download CV (PDF)</a></div>
 
 ## Research profile
 
-PhD student at KAIST studying traffic world models, multi-agent trajectory learning, reinforcement learning, and traffic safety. My recent work explores how models learned from drone trajectories behave in self-conditioned rollout, and whether their predictions support useful decisions.
+{{ site.data.research_story.cv_profile }}
 
 ## Education
 
@@ -22,9 +22,12 @@ PhD student at KAIST studying traffic world models, multi-agent trajectory learn
 ## Research and experience
 
 - [Current research projects and visual demonstrations]({{ '/research/' | relative_url }})
+- [Why I study drone data and traffic world models]({{ '/research/' | relative_url }}#research-story)
 - [Journal article and conference contributions]({{ '/publications/' | relative_url }})
+- [Manuscripts under review: AMAR, T-ITS, and AAAI 2027]({{ '/publications/' | relative_url }}#under-review)
+- [Earlier submissions: AMAR, ICML, and NeurIPS]({{ '/publications/' | relative_url }}#submission-history)
 - [Industry experience and selected awards]({{ '/about/' | relative_url }})
 
-Working manuscripts and ongoing studies are distinguished from published articles and conference records throughout the CV.
+The PDF includes the same submission record as the website. Current manuscripts are separated from earlier unsuccessful attempts and from published work; NeurIPS is recorded as withdrawn.
 
 Contact: [yukai@kaist.ac.kr](mailto:yukai@kaist.ac.kr).

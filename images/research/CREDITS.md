@@ -7,6 +7,7 @@
 - `prediction-utility-transfer.png`: rendered directly from `fig_certificate_transfer.pdf` in the author's Google Drive manuscript materials, *Validity Before Utility: Future-Free Candidate Ranking with Audited Traffic Dynamics Models*. Paired prediction and utility results, with uncertainty types retained in the caption.
 - `selector-tradeoff.png`: rendered directly from `fig_selector_tradeoff.pdf` in the same manuscript materials. Regret and rank fidelity on a fixed candidate bank, with adapted learned controls and analytic anchors.
 - `prosafeav-framework.png`: conceptual architecture from the author's ProSafeAV manuscript materials.
-- `safety-protocol.png`: figure from the author's leakage-controlled surrogate-safety working manuscript.
+- `safety-policy-effects.png`: direct PDF render of `fig_j3_nonego_policy_case.pdf` from the author's Google Drive manuscript *Forecast-Driven Surrogate Safety Assessment under Non-Ego Future Policies with Site-Centric Trajectory Data*. This is an inD per-pair policy comparison with an offline ground-truth oracle ablation; counts are not crash counts or independent events.
+- `safety-road-scenes.png`: direct PDF render of `fig_j3_bev_safety_context.pdf` from the same manuscript. Site-context imagery and trajectory overlays: inD, rounD and highD / levelXdata (https://levelxdata.com/). An illustration of research settings, not a performance claim.
 
 Research figures are illustrative manuscript or experiment artifacts. Their inclusion does not imply journal acceptance or real-world safety validation. Third-party dataset imagery is not covered by the website template's MIT license.
