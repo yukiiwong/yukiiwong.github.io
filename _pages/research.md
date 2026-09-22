@@ -21,13 +21,13 @@ My work connects **drone trajectory data**, **multi-agent world models**, and **
   <p>{{ project.description }}</p>
   <p><strong>Research focus.</strong> {{ project.contribution }}</p>
   {% if project.image %}
-  <figure class="project-figure {% if project.id == 'drone-world-models' %}trajectory-figure{% endif %}">
+  <figure class="project-figure {{ project.figure_class }} {% if project.id == 'drone-world-models' %}trajectory-figure{% endif %}">
     <a href="{{ '/images/research/' | append: project.image | relative_url }}" aria-label="Open full-size figure for {{ project.title | escape }}"><img src="{{ '/images/research/' | append: project.image | relative_url }}" alt="{{ project.alt | escape }}" loading="lazy" /></a>
     <figcaption>{{ project.caption }}{% if project.id == 'drone-world-models' %} <a href="https://levelxdata.com/ind-dataset/">Dataset information</a>.{% endif %} Click the figure to view it at full size.</figcaption>
   </figure>
   {% endif %}
   {% if project.secondary_image %}
-  <details class="framework-detail"><summary>View the model architecture</summary><figure class="project-figure"><a href="{{ '/images/research/' | append: project.secondary_image | relative_url }}"><img src="{{ '/images/research/' | append: project.secondary_image | relative_url }}" alt="{{ project.secondary_alt }}" loading="lazy" /></a><figcaption>{{ project.secondary_caption }}</figcaption></figure></details>
+  <details class="framework-detail"><summary>{{ project.secondary_summary | default: 'View the model architecture' }}</summary><figure class="project-figure {{ project.figure_class }}"><a href="{{ '/images/research/' | append: project.secondary_image | relative_url }}" aria-label="Open supporting figure for {{ project.title | escape }}"><img src="{{ '/images/research/' | append: project.secondary_image | relative_url }}" alt="{{ project.secondary_alt | escape }}" loading="lazy" /></a><figcaption>{{ project.secondary_caption }} Click the figure to view it at full size.</figcaption></figure></details>
   {% endif %}
   <p class="scope-note"><strong>Scope.</strong> {{ project.scope }}</p>
   {% if project.record_url %}<a href="{{ project.record_url }}">Conference record &rarr;</a>{% endif %}

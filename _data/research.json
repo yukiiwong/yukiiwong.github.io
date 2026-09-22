@@ -26,8 +26,10 @@
     "title": "Understanding why closed-loop rollouts fail",
     "status": "Working manuscript",
     "featured": true,
-    "image": "rollout-protocol.png",
-    "alt": "Four-regime diagnostic independently switches logged versus policy actions and target versus predicted graphs",
+    "image": "rollout-error-propagation.png",
+    "alt": "Selected inD scene: a closed-loop trajectory diverges from a logged turn, while a five-step reference prefix reduces the subsequent displacement error",
+    "card_image": "rollout-placement-scenes.png",
+    "card_alt": "Three inD intersection scenes compare logged and predicted trajectories under no correction, suffix, prefix, and spaced motion correction",
     "tags": [
       "Distribution shift",
       "Error compounding",
@@ -37,7 +39,11 @@
     "description": "Accurate forecasts under logged inputs can deteriorate when a model consumes its own predictions. This study independently switches action and graph sources, then uses prefix interventions and matched-error temporal controls to investigate where the rollout gap originates and when it develops.",
     "contribution": "A paired four-regime diagnostic, early-step replacement experiments, and temporal error controls. In the audited model family, action-source shift and early error accumulation explain much of the measured rollout gap; these findings are evaluated within the specified checkpoints and data protocol.",
     "scope": "The interventions diagnose model-internal behavior. They do not establish real-world causal effects or certify a planner's safety.",
-    "caption": "Four-regime protocol from the working manuscript, Where Closed-Loop Rollouts Break: Action-Source Shift and Early Error Compounding in Multi-Agent Forecasting.",
+    "caption": "An illustrative inD validation scene from my rollout-diagnostics manuscript. Left: the agent with the largest closed-loop gap in the selected scene. Right: displacement from the logged trajectory, with and without a five-step reference prefix. This deliberately selected example illustrates error propagation; it is not an average-performance estimate. Imagery and trajectories: inD / levelXdata.",
+    "secondary_image": "rollout-placement-scenes.png",
+    "secondary_alt": "Three selected inD scenes compare the same five logged motion inputs placed at the last, first, or evenly spaced rollout steps",
+    "secondary_summary": "Compare correction timing in three traffic scenes",
+    "secondary_caption": "Original manuscript experiment figure: the Gaussian configuration on three selected inD validation scenes, with five logged motion inputs placed at the end, beginning, or evenly spaced through the rollout. Black denotes logged motion, orange the rollout, and grey observed history. ADE labels apply only to each displayed scene, not to the full validation split. Imagery and trajectories: inD / levelXdata.",
     "cv": "Design paired action/graph source-switch diagnostics and temporal controls to investigate distribution shift and early error compounding in autoregressive multi-agent rollouts."
   },
   {
@@ -45,8 +51,9 @@
     "title": "From predictive validity to decision utility",
     "status": "Working manuscript",
     "featured": false,
-    "image": "ranking-protocol.png",
-    "alt": "Future-free action candidate ranking: past observations, fixed action bank, model scoring, choice lock, then reference evaluation",
+    "image": "prediction-utility-transfer.png",
+    "alt": "Paired changes in prediction error, decision regret, and rank fidelity: the rounD control improves prediction while both decision indicators worsen",
+    "figure_class": "result-figure",
     "tags": [
       "Candidate ranking",
       "Future-free evaluation",
@@ -56,7 +63,11 @@
     "description": "This work studies the gap between predictive accuracy and action-selection usefulness. Selectors receive the same action candidates built from observed history, lock their choices before reference evaluation, and are compared on recording-disjoint data. The protocol includes analytic motion anchors, learned controls, and explicit checks against future-information leakage.",
     "contribution": "A controlled candidate-ranking pipeline, rank-fidelity and regret measurements, and certificate-transfer tests. The study finds that improved closed-loop prediction does not consistently translate into better candidate ranking under the audited reference.",
     "scope": "Driving-quality scores are simulator-relative surrogates. They are not on-road safety estimates, and the learned controls are local adaptations rather than official benchmark reproductions.",
-    "caption": "Evaluation framework from the working manuscript, Validity Before Utility: Future-Free Candidate Ranking with Audited Traffic Dynamics Models.",
+    "caption": "Prediction gains need not transfer to action ranking. Original manuscript results compare CAT-K-style training with behaviour cloning on the same adapted model family and fixed candidate bank. Lower prediction error (CL ADE) and regret (R_Q), and higher rank fidelity (rho_Q), are better. Circles show 95% recording-cluster intervals; open diamonds show training-seed standard deviations. The highlighted rounD comparison uses two confirmation recordings, so its utility intervals are descriptive.",
+    "secondary_image": "selector-tradeoff.png",
+    "secondary_alt": "inD and rounD plots show the trade-off between decision regret and rank fidelity for constant-motion anchors and learned selectors",
+    "secondary_summary": "View the regret versus rank-fidelity comparison",
+    "secondary_caption": "Original manuscript results on 500 confirmation scenes per dataset, using the same future-free action bank for each selector. The preferred corner is lower right: lower regret and higher rank fidelity. CV and CA are constant-velocity and constant-acceleration anchors. Filled learned-model markers use behaviour cloning; open markers use CAT-K-style training. Vertical bars show 95% recording-cluster intervals, descriptive for the two-recording rounD split.",
     "cv": "Build recording-disjoint, future-free candidate-ranking audits with fixed candidate banks, analytic baselines, leakage checks, rank fidelity, and reference-relative regret."
   },
   {

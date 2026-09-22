@@ -42,6 +42,16 @@ for rel in pages:
             failures.append(f'{rel}: image has no alt attribute')
     if rel == 'research/index.html' and len(parser.images) < 7:
         failures.append('Research figures did not render as images')
+    if rel in ('index.html', 'research/index.html'):
+        for retired in ('rollout-protocol.png', 'ranking-protocol.png'):
+            if retired in text:
+                failures.append(f'{rel}: retired protocol illustration {retired}')
+    if rel == 'research/index.html':
+        sources = {img.get('src', '') for img in parser.images}
+        for figure in ('rollout-error-propagation.png', 'rollout-placement-scenes.png',
+                       'prediction-utility-transfer.png', 'selector-tradeoff.png'):
+            if not any(src.endswith('/' + figure) for src in sources):
+                failures.append(f'Research result figure missing: {figure}')
     for link in parser.links:
         u = urlsplit(link)
         if u.scheme not in ('', 'http', 'https') or u.netloc not in ('', 'yukiiwong.github.io', '127.0.0.1:4173'):
