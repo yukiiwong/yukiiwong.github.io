@@ -1,0 +1,70 @@
+{
+  "research_interests": "Traffic world models beyond ego-vehicle control: learning multi-agent dynamics from drone trajectories, evaluating their decision utility, and supporting site-level safety assessment and digital-twin validation.",
+  "research_groups": [
+    {
+      "heading": "Traffic World Models and Evaluation",
+      "items": [
+        {
+          "project": "drone-world-models",
+          "label": "Site-centric modeling",
+          "text": "Develop graph-conditioned latent dynamics with neural ODE motion decoding for multi-agent trajectories in inD, rounD, and highD."
+        },
+        {
+          "project": "rollout-diagnostics",
+          "label": "Closed-loop diagnostics",
+          "text": "Design paired action/graph source-switch tests and temporal controls to isolate distribution shift and early error compounding."
+        },
+        {
+          "project": "missing-history",
+          "label": "Missing-history evaluation",
+          "text": "Distinguish input-level missingness from latent-pathway interventions; compare forecasters under matched information conditions."
+        }
+      ]
+    },
+    {
+      "heading": "Decision Utility and Traffic Safety",
+      "items": [
+        {
+          "project": "decision-utility",
+          "label": "Decision utility",
+          "text": "Test whether prediction gains transfer to action ranking using fixed candidate banks, recording-disjoint evaluation, and regret diagnostics."
+        },
+        {
+          "project": "surrogate-safety",
+          "label": "Forecast-driven safety",
+          "text": "Develop leakage-controlled conflict and tail-risk diagnostics, explicitly testing assumptions about surrounding agents' unknown futures."
+        },
+        {
+          "project": "prosafeav",
+          "label": "ProSafeAV",
+          "text": "Integrate world-model reinforcement learning, traffic-conflict indicators, and extreme value theory; evaluate policies in CARLA-based simulation."
+        }
+      ]
+    },
+    {
+      "heading": "Traffic Digital Twins",
+      "items": [
+        {
+          "project": "digital-twins",
+          "label": "Behavioral validity",
+          "text": "Investigate which interaction patterns calibrated simulators and learned models preserve, and how their validity transfers across traffic sites."
+        }
+      ]
+    }
+  ],
+  "graduate_research": "Conducted transportation research with Prof. Zhiyuan Liu; contributed to collaborative work on reinforcement learning for joint travel-mode and departure-time choice.",
+  "skills": [
+    {
+      "label": "Modeling",
+      "text": "Graph neural networks; recurrent state-space models; neural ODEs; reinforcement learning."
+    },
+    {
+      "label": "Safety and evaluation",
+      "text": "Surrogate safety measures; extreme value theory; bootstrap diagnostics; recording-disjoint evaluation."
+    },
+    {
+      "label": "Software",
+      "text": "Python; PyTorch / PyTorch Lightning; CARLA; Git; LaTeX."
+    }
+  ]
+}

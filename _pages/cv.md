@@ -9,7 +9,7 @@ permalink: /cv/
 
 **{{ site.data.profile.role }} · KAIST**
 
-<div class="cv-preview"><p>A stage-of-career overview of my research direction, education, publications, manuscripts under review, ongoing projects, industry experience, and selected awards. Updated {{ site.data.submissions.updated }}.</p><a class="button-primary" href="{{ '/cv/Yukai_Wang_CV.pdf' | relative_url }}">Download CV (PDF)</a></div>
+<div class="cv-preview"><p>A two-page academic CV covering education, research interests and experience, publications, manuscripts under review, selected awards, and technical skills. Updated {{ site.data.submissions.updated }}.</p><a class="button-primary" href="{{ '/cv/Yukai_Wang_CV.pdf' | relative_url }}">Download CV (PDF)</a></div>
 
 ## Research profile
 
